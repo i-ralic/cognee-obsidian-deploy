@@ -63,11 +63,12 @@ def main() -> int:
     ap.add_argument("--vault", type=Path, default=Path("vault"))
     ap.add_argument("--edit", help="vault-relative path to edit (default: most-linked article)")
     ap.add_argument("--delete", help="vault-relative path to delete (default: a linked-to article)")
-    ap.add_argument("--record", type=Path, help="where to write mutation.json (default: proof/mutation.json)")
+    ap.add_argument("--record", type=Path, help="where to write mutation.json (default: <repo>/proof/mutation.json)")
     ap.add_argument("--undo", action="store_true", help="restore the vault from the record")
     a = ap.parse_args()
     vault = a.vault.resolve()
-    record_path = a.record or Path("proof") / "mutation.json"
+    # Default lives in this repo's proof/ regardless of where --vault points or the cwd.
+    record_path = a.record or Path(__file__).resolve().parent.parent / "proof" / "mutation.json"
     if a.undo:
         undo(vault, record_path)
         return 0
