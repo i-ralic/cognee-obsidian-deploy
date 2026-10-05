@@ -1,0 +1,6 @@
+.env
+vault/
+__pycache__/
+*.pyc
+proof/*.tmp
+proof/*.raw.log
