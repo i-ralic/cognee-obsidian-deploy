@@ -27,7 +27,7 @@ Sentences from the chunk the head entity came from (`proof/sql_relation_sentence
 Correct:
 1. `thumbs-up performed_on snippet`: "Reactions are a quick thumbs-up way to let snippet creators know you found their work helpful." (Snippet Reactions)
 2. `deletion performed_on topic`: "Confirm the deletion, and the topic will be permanently removed from your workspace." (How to delete a Topic?)
-3. `share requires_role viewer`: "When you mention someone in a comment, they … get access to the Topic based on the role you assign (Viewer, Commenter, Editor)." (How can I share my snippet with someone?)
+3. `share requires_role viewer`: "Share by mentioning someone in a comment (@): when you mention someone in a comment, they receive an email with a link to the snippet and get access to the Topic based on the role you assign (Viewer, Commenter, Editor)." (How can I share my snippet with someone?)
 4. `save performed_on reddit`: "Save Reddit Posts and Comments as Snippets." (Capture Content from Social Media on Desktop)
 5. `search available_on windows`: "Use Ctrl+K to open Search on Windows or ⌘+K on Mac." (How to Search Through the App?)
 

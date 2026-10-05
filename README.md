@@ -16,10 +16,18 @@ docker compose run --rm sync    # 2. run a sync of vault/ (re-run any time; the 
 ./scripts/ask.sh "How do I share a snippet?"   # 3. ask a question
 ```
 
-`vault/` is the built vault (297 published pages of help.cluing.io, 577 KB) and is committed, so a
-fresh clone syncs without the private source repo. `scripts/build_vault.py` is how it was made;
-`vault/vault-manifest.json` records every source → note mapping and the 128 drafts that were
-skipped (by path only).
+`vault/` is the built vault (297 published pages of help.cluing.io, 577 KB). It is **not in git yet**:
+the task that produced this repo lets the board decide whether public help-centre pages are
+committed to a public repository, and that decision is pending. Until it lands, build the vault
+first (needs a clone of the help repo next to this one):
+
+```bash
+python3 scripts/build_vault.py --source ../help/src/content/docs/en --out vault
+```
+
+`scripts/build_vault.py` is how it was made; `vault/vault-manifest.json` records every source →
+note mapping and the 128 drafts that were skipped (by path only). When the board confirms, the
+vault is committed and this paragraph shrinks to one line.
 
 Scheduled syncs: `SYNC_INTERVAL_SECONDS=3600 docker compose --profile sync up -d sync` keeps one
 sync container looping; or put `docker compose run --rm sync` in cron.
