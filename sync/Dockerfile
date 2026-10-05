@@ -6,6 +6,9 @@ FROM cognee/cognee@sha256:b9c727a631222897f60de9d796190bbf0a33254afdb335a6638a24
 # Commit tarball, not git+https (the image has no git) and not a branch (branches move).
 # Point this at the merged connector (upstream tag) when it lands.
 ARG CONNECTOR_ARCHIVE=https://github.com/i-ralic/cognee-community/archive/d52a05a4e4c369f3e5dd4334d9a13cc7155f56b6.tar.gz
+# The package version (0.1.0) does not change between connector commits, so the image records
+# the archive it was built from: as a label and as a file the proof can read back.
+LABEL org.opencontainers.image.source="${CONNECTOR_ARCHIVE}"
 
 USER root
 # --no-deps: cognee, dlt and pyyaml are already in the image; the connector
@@ -15,6 +18,7 @@ RUN /app/.venv/bin/python -m ensurepip --upgrade >/dev/null 2>&1 || true \
       "${CONNECTOR_ARCHIVE}#subdirectory=packages/connector/obsidian" \
  && /app/.venv/bin/python -c "import yaml, dlt, cognee_community_connector_obsidian"
 COPY sync.py healthcheck.py link_edges.py visualize.py /app/sync/
+RUN echo "${CONNECTOR_ARCHIVE}" > /app/sync/CONNECTOR_ARCHIVE
 # /app/.cognee is where cognee writes its persistent id; the image leaves it unwritable for uid 1000,
 # which only produces a repeated warning + traceback in the logs (see proof/sync1.log header).
 RUN mkdir -p /app/.cognee && chown -R cognee:cognee /app/sync /app/.cognee

@@ -1,0 +1,5 @@
+# One-shot sync on the image rebuilt with the label/file (same connector d52a05a); expected no-op
+2026-10-05T22:38:15.258770 [info     ] Obsidian: 297 notes in vault, 0 emitted, 0 deleted. [obsidian_connector]
+sync ok in 3s (remember 3s): RememberResult(status='completed', dataset='obsidian_vault', dataset_id='6ab75593-9b6e-5bf8-b10d-ce14d5d35f55', pipeline_run_id='71df0f4c-c7ca-470e-85a6-698dfbcdef2d', items=297, elapsed=2.5s, improve='skipped')
+link_edges: {"dataset_id": "6ab75593-9b6e-5bf8-b10d-ce14d5d35f55", "documents": 297, "notes_in_staging": 297, "links_to_desired": 1114, "links_to_inserted": 0, "links_to_removed": 0, "links_without_document": 0, "seconds": 0.0}
+ONESHOT_RC=0

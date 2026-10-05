@@ -1,0 +1,7 @@
+# What the sync image carries (read back from the rebuilt image, not from the Dockerfile)
+image label org.opencontainers.image.source:
+https://github.com/i-ralic/cognee-community/archive/d52a05a4e4c369f3e5dd4334d9a13cc7155f56b6.tar.gz
+/app/sync/CONNECTOR_ARCHIVE:
+https://github.com/i-ralic/cognee-community/archive/d52a05a4e4c369f3e5dd4334d9a13cc7155f56b6.tar.gz
+installed package version (unchanged across connector commits):
+0.1.0
