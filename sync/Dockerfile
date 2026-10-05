@@ -5,7 +5,7 @@ FROM cognee/cognee@sha256:b9c727a631222897f60de9d796190bbf0a33254afdb335a6638a24
 
 # Commit tarball, not git+https (the image has no git) and not a branch (branches move).
 # Point this at the merged connector (upstream tag) when it lands.
-ARG CONNECTOR_ARCHIVE=https://github.com/i-ralic/cognee-community/archive/ad4dda43009f0c999543bce197906f3aa56c1051.tar.gz
+ARG CONNECTOR_ARCHIVE=https://github.com/i-ralic/cognee-community/archive/d52a05a4e4c369f3e5dd4334d9a13cc7155f56b6.tar.gz
 
 USER root
 # --no-deps: cognee, dlt and pyyaml are already in the image; the connector
