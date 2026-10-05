@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Closed GLiNER schema for a product help centre (how-to articles about a web app).
+  OWL classes become entity types, object properties become relation types (cognee reads
+  rdfs:label for the name and rdfs:comment for the description). Keep both lists short:
+  cognee caps each at 20, and GLiNER prompts grow with every label.
+
+  Why this file exists: without it cognee probes its 30-label bank on a 3,000-word sketch of
+  every document in one unwindowed pass; on long documents that pass needs more than 5 GiB
+  and the sync container is OOM-killed (measured in the GitLab deployment on this stack).
+  With a schema given up front the probe is skipped and extraction runs windowed (384 words).
+-->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns="https://example.org/help-centre#">
+  <owl:Ontology rdf:about="https://example.org/help-centre"/>
+
+  <owl:Class rdf:about="https://example.org/help-centre#Feature">
+    <rdfs:label>feature</rdfs:label>
+    <rdfs:comment>A product feature or concept the article explains, e.g. snippets, topics, clusters, highlights, comments, tags, buckets.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/help-centre#UiElement">
+    <rdfs:label>ui element</rdfs:label>
+    <rdfs:comment>A button, menu, panel, sidebar, dialog, toolbar, icon or keyboard shortcut the user interacts with.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/help-centre#Action">
+    <rdfs:label>action</rdfs:label>
+    <rdfs:comment>Something the user does: create, delete, share, export, import, invite, reorder, search, filter.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/help-centre#Platform">
+    <rdfs:label>platform</rdfs:label>
+    <rdfs:comment>An operating system, browser, device or app store, e.g. Chrome, Safari, iOS, Android, Windows, macOS.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/help-centre#Integration">
+    <rdfs:label>integration</rdfs:label>
+    <rdfs:comment>A third-party product or service the app connects to, e.g. Slack, Notion, Google Docs, Zapier, Intercom.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/help-centre#Plan">
+    <rdfs:label>plan</rdfs:label>
+    <rdfs:comment>A pricing tier, subscription, trial or billing term, e.g. Free, Pro, Team, Enterprise.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/help-centre#FileFormat">
+    <rdfs:label>file format</rdfs:label>
+    <rdfs:comment>A document or data format, e.g. PDF, CSV, Markdown, DOCX, PNG.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/help-centre#Role">
+    <rdfs:label>role</rdfs:label>
+    <rdfs:comment>A user role or audience, e.g. owner, admin, editor, viewer, guest, researcher, student, marketer.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/help-centre#Organization">
+    <rdfs:label>organization</rdfs:label>
+    <rdfs:comment>A company, team or institution named in the text.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/help-centre#Person">
+    <rdfs:label>person</rdfs:label>
+    <rdfs:comment>A named human.</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://example.org/help-centre#partOf">
+    <rdfs:label>part_of</rdfs:label>
+    <rdfs:comment>A feature or UI element belongs to a larger feature or area.</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/help-centre#performedOn">
+    <rdfs:label>performed_on</rdfs:label>
+    <rdfs:comment>An action is done on a feature or object (share a snippet, delete a topic).</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/help-centre#triggeredBy">
+    <rdfs:label>triggered_by</rdfs:label>
+    <rdfs:comment>An action is started through a UI element (click the button, press the shortcut).</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/help-centre#availableOn">
+    <rdfs:label>available_on</rdfs:label>
+    <rdfs:comment>A feature is available on a platform or in a plan.</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/help-centre#integratesWith">
+    <rdfs:label>integrates_with</rdfs:label>
+    <rdfs:comment>A feature connects to a third-party integration.</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/help-centre#exportsTo">
+    <rdfs:label>exports_to</rdfs:label>
+    <rdfs:comment>A feature exports or imports a file format.</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/help-centre#requiresRole">
+    <rdfs:label>requires_role</rdfs:label>
+    <rdfs:comment>An action or feature needs a user role or plan.</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/help-centre#hosts">
+    <rdfs:label>hosts</rdfs:label>
+    <rdfs:comment>An organization or location hosts an event (used by the proof marker sentences).</rdfs:comment>
+  </owl:ObjectProperty>
+</rdf:RDF>
