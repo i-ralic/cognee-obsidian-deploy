@@ -1,0 +1,6 @@
+collabwriting|is_a|organization
+mira kovac|is_a|person
+quokka palette|available_on|inkscape 1.5
+quokka palette|is_a|feature
+quokka palette|part_of|inkscape 1.5
+quokka palette|performed_on|inkscape 1.5

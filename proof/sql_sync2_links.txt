@@ -1,0 +1,39 @@
+== links_to edges between the documents of this dataset
+ links_to_edges | wikilinks_represented 
+----------------+-----------------------
+           1114 |                  1127
+(1 row)
+
+== ten most linked-to documents (inbound links_to)
+               document                |                            note                            | inbound 
+---------------------------------------+------------------------------------------------------------+---------
+ Snippets, Comments, Tags              | collections/13970558-snippets-comments-tags.md             |      41
+ Topics, Buckets, Clusters             | collections/13877655-topics-buckets-clusters.md            |      36
+ Snippets                              | collections/13970600-snippets.md                           |      30
+ Quickstart Guide to Cluing            | collections/14160950-quickstart-guide-to-cluing.md         |      25
+ Topics                                | collections/13877709-topics.md                             |      25
+ AI Assistants                         | collections/13993196-ai-assistants.md                      |      23
+ FAQ 🧐                                | collections/14116097-faq.md                                |      21
+ AI Chat in Cluing                     | articles/12606209-ai-chat-in-cluing.md                     |      20
+ Sharing, Permissions, Mention, Search | collections/14011073-sharing-permissions-mention-search.md |      20
+ Use Cases                             | collections/11578904-use-cases.md                          |      20
+(10 rows)
+
+== documents with no links_to edge in either direction
+        document        |                    note                    
+------------------------+--------------------------------------------
+ FAQ                    | collections/3990309-faq.md
+ Getting started        | collections/11549849-getting-started.md
+ How to delete a Topic? | articles/11748750-how-to-delete-a-topic.md
+(3 rows)
+
+== sample of five links_to edges
+       from_document        |                  to_document                   | links 
+----------------------------+------------------------------------------------+-------
+ Add a comment to a snippet | Comments                                       | 1
+ Add a comment to a snippet | Mention Only                                   | 1
+ Add a comment to a snippet | Snippets, Comments, Tags                       | 1
+ Add a comment to a snippet | What different roles can be assigned to users? | 1
+ Add Cards to the Bottom    | Customize Extension Preferences                | 1
+(5 rows)
+

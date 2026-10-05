@@ -1,0 +1,93 @@
+== entity types (EntityType nodes and how many entities are_a each)
+ entity_type  | entities 
+--------------+----------
+ action       |      646
+ feature      |      459
+ uielement    |      239
+ fileformat   |      114
+ integration  |      107
+ organization |      107
+ role         |       95
+ platform     |       77
+ person       |       55
+ plan         |       25
+(10 rows)
+
+== ten most connected entity nodes (degree over entity-entity relations, excluding is_a and structural)
+   name    | degree 
+-----------+--------
+ cluing    |     39
+ dashboard |     32
+ topic     |     23
+ canvas    |     21
+ mobile    |     21
+ workspace |     20
+ snippet   |     19
+ ai chat   |     18
+ youtube   |     17
+ topics    |     16
+(10 rows)
+
+== ten most connected nodes overall (all edges incl. contains/links_to), excluding chunks/summaries
+     name     |    type    | degree 
+--------------+------------+--------
+ action       | EntityType |    646
+ feature      | EntityType |    459
+ tags         | Entity     |    293
+ uielement    | EntityType |    239
+ article      | Entity     |    194
+ snippets     | Entity     |    180
+ topics       | Entity     |    162
+ fileformat   | EntityType |    114
+ integration  | EntityType |    107
+ organization | EntityType |    107
+(10 rows)
+
+== 25 sampled entity-entity relations with the chunk text they came from (for correct/wrong review)
+        head         |       rel       |      tail      |                                                                                                             chunk                                                                                                             
+---------------------+-----------------+----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ai credits          | available_on    | professional   | # What subscription plans are available in Cluing? > [!note] In this collection > [[collections/14010526-subscriptions-plans-and-payments|Subscriptions, Plans and Payments]] Cluing offers flexible plans to fit your needs
+ screenshot          | exports_to      | snippet        | note] > 💡 At one point I hit an "Insufficient developer role" error, then a phone-verification problem. Neither required me to understand the underlying system - I just needed the agent to explain what the error meant an
+ topics              | available_on    | mobile         | **[[articles/11748989-print-or-save-a-topic-as-pdf|Save as PDF or print]]** - perfect for offline review or sharing. 5. **[[articles/11775739-drag-drop-snippets-to-external-sources|Drag and drop]]** snippets directly int
+ cluing              | performed_on    | quora          | # Connect Instagram, Build a Site, and Publish It - All in Cluing > [!note] In this collection > [[collections/11578904-use-cases|Use Cases]] / [[collections/11578905-marketing-and-communications|Marketing & Communicatio
+ autonomous-task.mp4 | available_on    | autonomus      | # Scheduling a Task > [!note] In this collection > [[collections/19716916-agents-and-skills|Agents and Skills]] Not every Task needs a person driving it. A weekly research digest, a Monday morning summary, a monthly sale
+ outdated snippets   | part_of         | update a skill | # How to write good Skill Instructions > [!note] In this collection > [[collections/19716916-agents-and-skills|Agents and Skills]] A well-written Skill is a short workflow your agent can run over and over. The trick is k
+ snippet             | requires_role   | commenter      | # Creating Snippets & Topics with AI > [!note] In this collection > [[collections/13993196-ai-assistants|AI Assistants]] Cluing AI can now create and organize content directly in your workspace. Whether you’re chatting w
+ canvas              | integrates_with | youtube        | These tools help you emphasize important points and structure your writing: - **Bold, Italic, and Code** - **Headers** - **Dividers** - Bullet & Numbered Lists - Blockquotes <video src="/media/2499856619/Cluing-AI-newUI4
+ subscriber tracking | available_on    | youtube        |  ### 2) Get the data in whatever format you need The agent can generate a PDF, a CSV or spreadsheet you can sort and filter, a short summary for a social post, an HTML report, or a dashboard. ### 3) Find patterns you wou
+ agent               | performed_on    | channel        | # Connect Instagram, Build a Site, and Publish It - All in Cluing > [!note] In this collection > [[collections/11578904-use-cases|Use Cases]] / [[collections/11578905-marketing-and-communications|Marketing & Communicatio
+ research            | exports_to      | csv            |  It was doing what I'd normally ask a collaborator to do: _Here are several sources. Understand them and turn the relevant information into a section of my website._ ## The agent can do the work. You still have to check 
+ viewer              | available_on    | dashboard      | Add a title, a **#tag**, or link it to a source, and your raw thinking lives in the same Topic as everything that will support it. ![](/media/2541422040/image.webp) ### 📌 Effortless Collaboration **Share any Topic** with
+ app store           | available_on    | android        | # Cluing Mobile Apps > [!note] In this collection > [[collections/14602689-cluing-on-the-go|Cluing On The Go]] Cluing apps are the best place for saving social media posts, PDFs, and links while you're browsing on your p
+ cluing              | part_of         | microsoft edge | # Connect Instagram, Build a Site, and Publish It - All in Cluing > [!note] In this collection > [[collections/11578904-use-cases|Use Cases]] / [[collections/11578905-marketing-and-communications|Marketing & Communicatio
+ cluing              | available_on    | microsoft edge | # Connect Instagram, Build a Site, and Publish It - All in Cluing > [!note] In this collection > [[collections/11578904-use-cases|Use Cases]] / [[collections/11578905-marketing-and-communications|Marketing & Communicatio
+ topics              | exports_to      | csv            | **[[articles/11748989-print-or-save-a-topic-as-pdf|Save as PDF or print]]** - perfect for offline review or sharing. 5. **[[articles/11775739-drag-drop-snippets-to-external-sources|Drag and drop]]** snippets directly int
+ duplicate           | requires_role   | owner          | # Duplicate To > [!note] In this collection > [[collections/13970558-snippets-comments-tags|Snippets, Comments, Tags]] / [[collections/13970600-snippets|Snippets]] The **Duplicate To** feature lets you reuse existing con
+ comment             | exports_to      | snippet        | # Create an AI-Powered Testimonial System > [!note] In this collection > [[collections/11578904-use-cases|Use Cases]] / [[collections/11578905-marketing-and-communications|Marketing & Communications]] Every time a client
+ add cluster         | performed_on    | dashboard      | # How to create a new Cluster? > [!note] In this collection > [[collections/13877655-topics-buckets-clusters|Topics, Buckets, Clusters]] / [[collections/13953587-clusters|Clusters]] To create a new Cluster on your Dashbo
+ add cluster         | triggered_by    | dashboard      | # How to create a new Cluster? > [!note] In this collection > [[collections/13877655-topics-buckets-clusters|Topics, Buckets, Clusters]] / [[collections/13953587-clusters|Clusters]] To create a new Cluster on your Dashbo
+ add cluster         | part_of         | dashboard      | # How to create a new Cluster? > [!note] In this collection > [[collections/13877655-topics-buckets-clusters|Topics, Buckets, Clusters]] / [[collections/13953587-clusters|Clusters]] To create a new Cluster on your Dashbo
+ dropdown            | part_of         | workspace      | # Switching a Task's owner > [!note] In this collection > [[collections/19716916-agents-and-skills|Agents and Skills]] By default the Task you create belongs to you. But every Task has an **Owner** field you can change a
+ summarize           | requires_role   | ai assistants  | Type **@**, pick a Topic, and Cluing feeds everything saved inside it to the **AI as context**. Suddenly you can ask it to spot the trends across a month of research, summarize an entire body of notes, or answer a pointe
+ summarize           | available_on    | ai assistants  | Type **@**, pick a Topic, and Cluing feeds everything saved inside it to the **AI as context**. Suddenly you can ask it to spot the trends across a month of research, summarize an entire body of notes, or answer a pointe
+ deletion            | requires_role   | owner          | # How to delete a workspace? > [!note] In this collection > [[collections/13994794-workspace-and-account-settings|Workspace and Account Settings]] To access settings, open the **workspace panel** in the top left corner a
+(25 rows)
+
+== relation name distribution (entity-entity)
+ relationship_name | count 
+-------------------+-------
+ available_on      |    99
+ part_of           |    77
+ performed_on      |    73
+ exports_to        |    65
+ integrates_with   |    52
+ requires_role     |    51
+ triggered_by      |    26
+ hosts             |     1
+(8 rows)
+
+== documents by chunk count (top 5) and chunks per document average
+ label | chunks 
+-------+--------
+(0 rows)
+

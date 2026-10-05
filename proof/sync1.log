@@ -1,0 +1,22 @@
+# sync1.raw.log trimmed to the informative lines: connector summary, cognee ingestion/orphan/dlt/GLiNER lines, errors, the
+# sync summary and the measure.sh totals. 229284 lines dropped (ANSI colour, per-chunk debug chatter, and the repeated harmless
+# 'Could not create or read persistent id file' warning + traceback). The unfiltered log is kept on the build host (*.raw.log).
+ Container cognee-obsidian-deploy-postgres-1 Running 
+ Container cognee-obsidian-deploy-postgres-1 Waiting 
+ Container cognee-obsidian-deploy-postgres-1 Healthy 
+ Container cognee-obsidian-deploy-sync-run-ff74f400c7ca Creating 
+ Container cognee-obsidian-deploy-sync-run-ff74f400c7ca Created 
+2026-10-05T20:33:05.404674 [warning  ] Cognee 1.0 changes: New API — remember/recall/forget/improve (V1 add/cognify/search still work). Session memory enabled by default (CACHING=false to disable). Multi-user access control on by default (ENABLE_BACKEND_ACCESS_CONTROL=false to disable). Agents (@cognee.agent) auto-verified on registration. See https://docs.cognee.ai/ [cognee.shared.logging_utils]
+2026-10-05T20:33:07.439947 [warning  ] Extracting the knowledge graph with the GLiNER demo extractor: cognee's open-source local extraction, free to use with no LLM key. The production-grade GLiNER extraction (higher accuracy and broader label coverage) is available with a cognee enterprise licence; write to social@cognee.ai to explore the options. [cognify.config]
+2026-10-05T20:33:07.659741 [info     ] Loading local model BAAI/bge-small-en-v1.5 from /cognee-storage/models/fastembed [FastembedEmbeddingEngine]
+2026-10-05T20:33:08.637017 [info     ] Obsidian: 297 notes in vault, 297 emitted, 0 deleted. [obsidian_connector]
+2026-10-05T20:34:59.912479 [info     ] Loading local model fastino/gliner2.5-base-v1 from /cognee-storage/models/hf/hub [gliner.extractor]
+2026-10-05T20:35:07.868255 [info     ] GLiNER model fastino/gliner2.5-base-v1 ready in 8.0s [gliner.extractor]
+2026-10-05T20:47:58.903798 [info     ] remember: running self-improvement on dataset 'obsidian_vault' [remember]
+sync ok in 892s (remember 892s): RememberResult(status='completed', dataset='obsidian_vault', dataset_id='6ab75593-9b6e-5bf8-b10d-ce14d5d35f55', pipeline_run_id='1fea0cdd-53e9-4501-acf4-63d5798fbf3f', items=297, elapsed=890.6s, improve='skipped')
+link_edges: {"dataset_id": "6ab75593-9b6e-5bf8-b10d-ce14d5d35f55", "documents": 297, "notes_in_staging": 297, "links_to_desired": 1134, "links_to_inserted": 1134, "links_to_removed": 0, "links_without_document": 0, "seconds": 0.1}
+wall clock: 896s
+cognee-obsidian-deploy-api-1: peak mem 607 MiB, peak cpu 7%
+cognee-obsidian-deploy-postgres-1: peak mem 166 MiB, peak cpu 8%
+cognee-obsidian-deploy-sync-run-ff74f400c7ca: peak mem 4634 MiB, peak cpu 397%
+SYNC1_RC=0

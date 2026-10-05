@@ -1,0 +1,14 @@
+time="2026-10-05T14:44:22-07:00" level=warning msg="volume \"cognee-obsidian-deploy_cognee_storage\" already exists but was not created by Docker Compose. Use `external: true` to use an existing volume"
+ Container cognee-obsidian-deploy-postgres-1 Running 
+ Container cognee-obsidian-deploy-sync-1 Creating 
+ Container cognee-obsidian-deploy-sync-1 Created 
+ Container cognee-obsidian-deploy-postgres-1 Waiting 
+ Container cognee-obsidian-deploy-postgres-1 Healthy 
+ Container cognee-obsidian-deploy-sync-1 Starting 
+ Container cognee-obsidian-deploy-sync-1 Started 
+ Container cognee-obsidian-deploy-sync-1 Stopping 
+ Container cognee-obsidian-deploy-sync-1 Stopped 
+Going to remove cognee-obsidian-deploy-sync-1
+ Container cognee-obsidian-deploy-sync-1 Removing 
+ Container cognee-obsidian-deploy-sync-1 Removed 
+LOOP_DONE

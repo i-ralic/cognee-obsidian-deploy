@@ -1,0 +1,20 @@
+# sync3.raw.log trimmed to the informative lines: connector summary, cognee ingestion/orphan/dlt/GLiNER lines, errors, the
+# sync summary and the measure.sh totals. 136 lines dropped (ANSI colour, per-chunk debug chatter, and the repeated harmless
+# 'Could not create or read persistent id file' warning + traceback). The unfiltered log is kept on the build host (*.raw.log).
+ Container cognee-obsidian-deploy-postgres-1 Running 
+ Container cognee-obsidian-deploy-postgres-1 Waiting 
+ Container cognee-obsidian-deploy-postgres-1 Healthy 
+ Container cognee-obsidian-deploy-sync-run-5a67c50547d3 Creating 
+ Container cognee-obsidian-deploy-sync-run-5a67c50547d3 Created 
+2026-10-05T20:53:19.139899 [warning  ] Cognee 1.0 changes: New API — remember/recall/forget/improve (V1 add/cognify/search still work). Session memory enabled by default (CACHING=false to disable). Multi-user access control on by default (ENABLE_BACKEND_ACCESS_CONTROL=false to disable). Agents (@cognee.agent) auto-verified on registration. See https://docs.cognee.ai/ [cognee.shared.logging_utils]
+2026-10-05T20:53:21.359610 [warning  ] Extracting the knowledge graph with the GLiNER demo extractor: cognee's open-source local extraction, free to use with no LLM key. The production-grade GLiNER extraction (higher accuracy and broader label coverage) is available with a cognee enterprise licence; write to social@cognee.ai to explore the options. [cognify.config]
+2026-10-05T20:53:21.589538 [info     ] Loading local model BAAI/bge-small-en-v1.5 from /cognee-storage/models/fastembed [FastembedEmbeddingEngine]
+2026-10-05T20:53:22.316536 [info     ] Obsidian: 297 notes in vault, 0 emitted, 0 deleted. [obsidian_connector]
+2026-10-05T20:53:24.762928 [info     ] remember: running self-improvement on dataset 'obsidian_vault' [remember]
+sync ok in 4s (remember 4s): RememberResult(status='completed', dataset='obsidian_vault', dataset_id='6ab75593-9b6e-5bf8-b10d-ce14d5d35f55', pipeline_run_id='a00f0044-acac-4880-94c1-0c0b16baaf52', items=297, elapsed=2.5s, improve='skipped')
+link_edges: {"dataset_id": "6ab75593-9b6e-5bf8-b10d-ce14d5d35f55", "documents": 297, "notes_in_staging": 297, "links_to_desired": 1114, "links_to_inserted": 0, "links_to_removed": 0, "links_without_document": 0, "seconds": 0.0}
+wall clock: 7s
+cognee-obsidian-deploy-api-1: peak mem 609 MiB, peak cpu 0%
+cognee-obsidian-deploy-postgres-1: peak mem 146 MiB, peak cpu 0%
+cognee-obsidian-deploy-sync-run-5a67c50547d3: peak mem 148 MiB, peak cpu 91%
+SYNC3_RC=0

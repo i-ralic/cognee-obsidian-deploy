@@ -1,0 +1,3 @@
+NAME                                IMAGE                    COMMAND                  SERVICE    CREATED          STATUS                    PORTS
+cognee-obsidian-deploy-api-1        cognee/cognee:main       "/app/entrypoint.sh"     api        21 minutes ago   Up 21 minutes (healthy)   0.0.0.0:8000->8000/tcp, [::]:8000->8000/tcp
+cognee-obsidian-deploy-postgres-1   pgvector/pgvector:pg17   "docker-entrypoint.s…"   postgres   21 minutes ago   Up 21 minutes (healthy)   5432/tcp

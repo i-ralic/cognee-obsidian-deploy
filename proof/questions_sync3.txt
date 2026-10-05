@@ -1,0 +1,40 @@
+### Q: How do I mention a collaborator in a comment?
+  1. # Who can be mentioned in the comments? > [!note] In this collection > [[collections/14011073-sharing-permissions-mention-search|Sharing, Permissions, Mention, Search]] / [[collections/14013988-mention-and-search|Mention & Search]] In the comment below a snipp
+  2. # Mention External Users By Email > [!note] In this collection > [[collections/14011073-sharing-permissions-mention-search|Sharing, Permissions, Mention, Search]] / [[collections/14013988-mention-and-search|Mention & Search]] If you want to add external users,
+  3. warning] > **_[[articles/11793611-how-to-mention-collaborators-in-comments|👉🏼 How to mention collaborators in comments]]_** **Inside your Inbox:** You can’t add collaborators to your Inbox, but you _can_ mention someone by their email under a snippet if you ne
+
+### Q: How do I share a snippet with my team?
+  1. # How can I share my snippet with someone? > [!note] In this collection > [[collections/13970558-snippets-comments-tags|Snippets, Comments, Tags]] / [[collections/13970600-snippets|Snippets]] You can share a snippet in two ways: **by copying the content** or *
+  2. # Direct links for Snippets and Comments > [!note] In this collection > [[collections/13970558-snippets-comments-tags|Snippets, Comments, Tags]] / [[collections/13970600-snippets|Snippets]] You can generate direct URLs that point colleagues to a specific snipp
+  3. <video src="/media/2502123812/first-snippet.mp4" aria-hidden="true" width="1910" height="986" autoplay loop muted playsinline preload="metadata" ></video> ## The Cluing Dashboard To go to your dashboard, where you can further **organize your snippets and topic
+
+### Q: What are topics, buckets and clusters?
+  1. # Topics, Buckets, Clusters ## Sections - [[collections/13877709-topics|Topics]] - [[collections/13953587-clusters|Clusters]] - [[collections/19640459-buckets|Buckets]] Links to: Topics; Clusters; Buckets Tags: collection
+  2. # What is a Topic? > [!note] In this collection > [[collections/13877655-topics-buckets-clusters|Topics, Buckets, Clusters]] / [[collections/13877709-topics|Topics]] **Think of a Topic as a folder for a specific subject or project.** It's where you collect eve
+  3. # Clusters and Topics _This collection is empty._ Tags: collection
+
+### Q: Which browsers is the Cluing extension available on?
+  1. # How to install the Cluing extension and create your first topic > [!note] In this collection > [[collections/14160950-quickstart-guide-to-cluing|Quickstart Guide to Cluing]] / [[collections/14322495-getting-started|Getting Started]] ## First step - Install t
+  2. # Which browsers does Cluing support? > [!note] In this collection > [[collections/14160950-quickstart-guide-to-cluing|Quickstart Guide to Cluing]] / [[collections/14116097-faq|FAQ 🧐]] Cluing works on: - **[Chrome Webstore](https://chromewebstore.google.com/de
+  3. > > - Works **even on devices without the browser extension**. > > **[Get Cluing for free](https://app.cluing.io/)** Links to: Snippets, Comments, Tags; Snippets; How to add webpage annotations on Mobile? Tags: snippets, article
+
+### Q: Which plan do I need to use AI assistants?
+  1. # AI Agents and Pro AI Models in Cluing Chat > [!note] In this collection > [[collections/13993196-ai-assistants|AI Assistants]] Cluing Chat gives you two ways to work with AI: - **Custom AI Agents** - specialized assistants designed for specific tasks. - **Pr
+  2. ## Pro AI Models [[articles/12606209-ai-chat-in-cluing|Cluing Chat]] also gives you access to the **latest AI models** from leading AI providers, allowing you to choose the model that best fits your task. Current Pro AI providers include: - **OpenAI** - **Anth
+  3. # AI Credit consumption > [!note] In this collection > [[collections/13993196-ai-assistants|AI Assistants]] AI Credits are used whenever you interact with AI features in Cluing - things like chatting with the AI, organizing your workspace or getting AI-powered
+
+### Q: How many snippets can I create on the free plan?
+  1. # How to create a snippet? > [!note] In this collection > [[collections/13970558-snippets-comments-tags|Snippets, Comments, Tags]] / [[collections/13970600-snippets|Snippets]] You can save snippets either to your **Inbox**, directly into a **new Topic**, or in
+  2. How to add Ideas as Snippets?; Save snippet from AI Chat; Sharing Options; Document management in Reader; AI Chat in Cluing; AI Canvas Tags: students, article
+  3. You can ask Claude to create: - **Summary Snippets** - turn a conversation or selected content into a concise summary. - **Bookmark Snippets** - save important information for quick reference later. - **Idea Snippets** - capture thoughts and insights you want 
+
+### Q: Who founded Collabwriting and when?
+  1. # Do you have a privacy policy and terms of service? > [!note] In this collection > [[collections/14115869-security-and-privacy|Security and Privacy]] Yes, you can review our **[Privacy Policy](https://collabwriting.com/legal/privacy-policy)** and **[Terms of 
+  2. # Who built Cluing? > [!note] In this collection > [[collections/14160950-quickstart-guide-to-cluing|Quickstart Guide to Cluing]] / [[collections/14116097-faq|FAQ 🧐]] Cluing was founded in 2021 by [Sandra Idjoski](https://www.linkedin.com/in/sandra-idjoski/) (
+  3. ### Why It All Adds Up When research, organization, drafting, and editing finally share one connected space, the whole process gets lighter: - **You save hours per post** - the tool-switching and manual sorting that used to eat your mornings simply disappears.
+
+### Q: Where is the Zagreb Hackfest 2026 held?
+  1. note] > [[articles/15442354-upload-documents-to-ai-chat|Learn more about uploading documents →]] - **[[articles/15190105-upload-images-in-ai-chat|Upload an image]]** - Drop an image directly into the chat to ask questions about it or have the AI analyze its co
+  2. # Quokka palette for Inkscape 1.5 (20261005-1348) Marker 20261005-1348: the Quokka palette ships with Inkscape 1.5 and was drawn by Mira Kovac. See also [[articles/12606209-ai-chat-in-cluing|the edited note]]. Links to: AI Chat in Cluing Tags: article, proof
+  3. _ - And, depending on the tools you've connected, give it recurring tasks: _Check this every Monday and prepare an update._ ## The final result By the end of the afternoon, I had a live website with: - a complete Cyrillic landing page - a brand identity based 
+

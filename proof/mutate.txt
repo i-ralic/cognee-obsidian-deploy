@@ -1,0 +1,8 @@
+EDITED  articles/12606209-ai-chat-in-cluing.md
+  marker: Marker 20261005-1348: the Zagreb Hackfest 2026 is hosted by Collabwriting at the Lauba hall.
+ADDED   articles/99999999-quokka-palette.md
+  marker: Marker 20261005-1348: the Quokka palette ships with Inkscape 1.5 and was drawn by Mira Kovac.
+DELETED articles/11793611-how-to-mention-collaborators-in-comments.md  (title: 'How to Mention Collaborators in Comments?', 19 notes link to it)
+
+record: /Users/cluing/.paperclip/instances/default/workspaces/ea9ed6f5-cd40-4d3c-a6a1-dc3b7685066a/cognee-obsidian-deploy/proof/mutation.json
+Now: docker compose run --rm sync   # expect: 2 + N re-rendered emitted, 1 deleted

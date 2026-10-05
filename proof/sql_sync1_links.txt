@@ -1,0 +1,40 @@
+-- Captured right after sync 1 (before mutate_vault.py), with the first version of scripts/graph_links.sql
+-- (document nodes shown by their graph name text_<hash>; the later version joins titles from the data table).
+== links_to edges between this dataset's documents
+ links_to_edges
+----------------
+           1134
+(1 row)
+
+== ten most linked-to documents (inbound links_to)
+               document                | inbound
+---------------------------------------+---------
+ text_a302c8c8b67c79c17e3295eecd1a2f7c |      41
+ text_3015770aabd11a480d38d7f193f8a0c7 |      36
+ text_7c6062cdb84ddf7608484c7a84ef5e1f |      30
+ text_b3bcb94a38b9292b123e8adfab5d3140 |      25
+ text_d21c441c8d8369ea335374016e8a4053 |      25
+ text_344351ef53bcbba6bd3f7b0b6bb39e19 |      23
+ text_19d0073b35ca9cad412eaea8e996b1cb |      21
+ text_a6e9854859b38b9c2ebf99812543f150 |      21
+ text_6b5b46849c542b6832ccf31102f4a583 |      20
+ text_6cc6d6cd3f7ca422d0c071f879209128 |      20
+(10 rows)
+
+== documents with no links_to edge in either direction
+ isolated_documents
+--------------------
+                  3
+(1 row)
+
+== sample of five links_to edges with the paths they came from
+             from_document             |              to_document              | links
+---------------------------------------+---------------------------------------+-------
+ text_004f243098260d0416b74cf26aacb5fe | text_9c0f1f9bfb9c2e90e672e4da5be96a7f | 1
+ text_00eba5ec3abf0b3f2883801c4a1d2343 | text_3d4cbc10ee8ba53b897d06c7f4c33112 | 1
+ text_00eba5ec3abf0b3f2883801c4a1d2343 | text_56bc5fd483b02e9c1be586b10ca68477 | 1
+ text_00eba5ec3abf0b3f2883801c4a1d2343 | text_5d50d47d46379569e8981213e1e77de7 | 1
+ text_00eba5ec3abf0b3f2883801c4a1d2343 | text_874cbd98256ec8bc5c645d05a9ded4c8 | 1
+(5 rows)
+
+-- Separate query at the same moment (proof/sql_sync1_links_sum.txt): sum of per-edge wikilink counts = 1149, edges = 1134.
