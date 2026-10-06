@@ -1,0 +1,13 @@
+sync-1  | 2026-10-05T21:50:22.531655 [info     ] Loading local model BAAI/bge-small-en-v1.5 from /cognee-storage/models/fastembed [FastembedEmbeddingEngine]
+sync-1  | 2026-10-05T21:50:23.268506 [info     ] Obsidian: 297 notes in vault, 0 emitted, 0 deleted. [obsidian_connector]
+sync-1  | sync ok in 3s (remember 3s): RememberResult(status='completed', dataset='obsidian_vault', dataset_id='6ab75593-9b6e-5bf8-b10d-ce14d5d35f55', pipeline_run_id='d61d34c8-8e3e-4fe3-ae30-6410efa52a9b', items=297, elapsed=2.5s, improve='skipped')
+sync-1  | link_edges: {"dataset_id": "6ab75593-9b6e-5bf8-b10d-ce14d5d35f55", "documents": 297, "notes_in_staging": 297, "links_to_desired": 1114, "links_to_inserted": 0, "links_to_removed": 0, "links_without_document": 0, "seconds": 0.0}
+sync-1  | 2026-10-05T21:52:26.019179 [info     ] Obsidian: 297 notes in vault, 0 emitted, 0 deleted. [obsidian_connector]
+sync-1  | sync ok in 1s (remember 1s): RememberResult(status='completed', dataset='obsidian_vault', dataset_id='6ab75593-9b6e-5bf8-b10d-ce14d5d35f55', pipeline_run_id='4abb293c-4a90-4191-bd24-a0584602b828', items=297, elapsed=1.1s, improve='skipped')
+sync-1  | link_edges: {"dataset_id": "6ab75593-9b6e-5bf8-b10d-ce14d5d35f55", "documents": 297, "notes_in_staging": 297, "links_to_desired": 1114, "links_to_inserted": 0, "links_to_removed": 0, "links_without_document": 0, "seconds": 0.0}
+sync-1  | 2026-10-05T21:54:27.255589 [info     ] Obsidian: 297 notes in vault, 0 emitted, 0 deleted. [obsidian_connector]
+sync-1  | sync ok in 1s (remember 1s): RememberResult(status='completed', dataset='obsidian_vault', dataset_id='6ab75593-9b6e-5bf8-b10d-ce14d5d35f55', pipeline_run_id='78311d0d-a803-4f04-9f0e-27d9e8fe219e', items=297, elapsed=0.8s, improve='skipped')
+sync-1  | link_edges: {"dataset_id": "6ab75593-9b6e-5bf8-b10d-ce14d5d35f55", "documents": 297, "notes_in_staging": 297, "links_to_desired": 1114, "links_to_inserted": 0, "links_to_removed": 0, "links_without_document": 0, "seconds": 0.0}
+sync-1  | 2026-10-05T21:56:28.327535 [info     ] Obsidian: 297 notes in vault, 0 emitted, 0 deleted. [obsidian_connector]
+sync-1  | sync ok in 1s (remember 1s): RememberResult(status='completed', dataset='obsidian_vault', dataset_id='6ab75593-9b6e-5bf8-b10d-ce14d5d35f55', pipeline_run_id='be036a51-ac51-4b67-abda-59afc40d80d2', items=297, elapsed=0.9s, improve='skipped')
+sync-1  | link_edges: {"dataset_id": "6ab75593-9b6e-5bf8-b10d-ce14d5d35f55", "documents": 297, "notes_in_staging": 297, "links_to_desired": 1114, "links_to_inserted": 0, "links_to_removed": 0, "links_without_document": 0, "seconds": 0.0}

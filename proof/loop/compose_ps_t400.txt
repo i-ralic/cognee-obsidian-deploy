@@ -1,0 +1,5 @@
+# docker compose ps at T+400s (iteration 3 done)
+NAME                                IMAGE                                                                                       COMMAND                  SERVICE    CREATED          STATUS                    PORTS
+cognee-obsidian-deploy-api-1        cognee/cognee@sha256:b9c727a631222897f60de9d796190bbf0a33254afdb335a6638a2419dccc3101       "/app/entrypoint.sh"     api        12 minutes ago   Up 12 minutes (healthy)   0.0.0.0:8000->8000/tcp, [::]:8000->8000/tcp
+cognee-obsidian-deploy-postgres-1   pgvector/pgvector@sha256:ac08538c6f8b9904c33c8224c5e5706dbe760aca29db1d096972b4052c22a75d   "docker-entrypoint.s…"   postgres   12 minutes ago   Up 12 minutes (healthy)   5432/tcp
+cognee-obsidian-deploy-sync-1       cognee-obsidian-deploy-sync                                                                 "/app/.venv/bin/pyth…"   sync       6 minutes ago    Up 6 minutes (healthy)    

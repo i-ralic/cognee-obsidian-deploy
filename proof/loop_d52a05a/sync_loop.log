@@ -1,0 +1,9 @@
+sync-1  | 2026-10-05T22:12:02.026219 [info     ] Obsidian: 297 notes in vault, 0 emitted, 0 deleted. [obsidian_connector]
+sync-1  | sync ok in 4s (remember 4s): RememberResult(status='completed', dataset='obsidian_vault', dataset_id='6ab75593-9b6e-5bf8-b10d-ce14d5d35f55', pipeline_run_id='2889c547-870c-4bdd-a1e1-c953417f4628', items=297, elapsed=2.6s, improve='skipped')
+sync-1  | link_edges: {"dataset_id": "6ab75593-9b6e-5bf8-b10d-ce14d5d35f55", "documents": 297, "notes_in_staging": 297, "links_to_desired": 1114, "links_to_inserted": 0, "links_to_removed": 0, "links_without_document": 0, "seconds": 0.0}
+sync-1  | 2026-10-05T22:14:04.774332 [info     ] Obsidian: 297 notes in vault, 0 emitted, 0 deleted. [obsidian_connector]
+sync-1  | sync ok in 1s (remember 1s): RememberResult(status='completed', dataset='obsidian_vault', dataset_id='6ab75593-9b6e-5bf8-b10d-ce14d5d35f55', pipeline_run_id='b20e9459-7d16-4fe1-83df-810de21b776b', items=297, elapsed=1.0s, improve='skipped')
+sync-1  | link_edges: {"dataset_id": "6ab75593-9b6e-5bf8-b10d-ce14d5d35f55", "documents": 297, "notes_in_staging": 297, "links_to_desired": 1114, "links_to_inserted": 0, "links_to_removed": 0, "links_without_document": 0, "seconds": 0.0}
+sync-1  | 2026-10-05T22:16:05.865428 [info     ] Obsidian: 297 notes in vault, 0 emitted, 0 deleted. [obsidian_connector]
+sync-1  | sync ok in 1s (remember 1s): RememberResult(status='completed', dataset='obsidian_vault', dataset_id='6ab75593-9b6e-5bf8-b10d-ce14d5d35f55', pipeline_run_id='48f7cd34-ff68-40eb-b812-331cc247afd8', items=297, elapsed=0.7s, improve='skipped')
+sync-1  | link_edges: {"dataset_id": "6ab75593-9b6e-5bf8-b10d-ce14d5d35f55", "documents": 297, "notes_in_staging": 297, "links_to_desired": 1114, "links_to_inserted": 0, "links_to_removed": 0, "links_without_document": 0, "seconds": 0.0}

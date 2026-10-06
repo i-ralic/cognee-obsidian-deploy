@@ -1,0 +1,42 @@
+# sync2.raw.log trimmed to the informative lines: connector summary, cognee ingestion/orphan/dlt/GLiNER lines, errors, the
+# sync summary and the measure.sh totals. 16178 lines dropped (ANSI colour, per-chunk debug chatter, and the repeated harmless
+# 'Could not create or read persistent id file' warning + traceback). The unfiltered log is kept on the build host (*.raw.log).
+ Container cognee-obsidian-deploy-postgres-1 Running 
+ Container cognee-obsidian-deploy-postgres-1 Waiting 
+ Container cognee-obsidian-deploy-postgres-1 Healthy 
+ Container cognee-obsidian-deploy-sync-run-8285c7440571 Creating 
+ Container cognee-obsidian-deploy-sync-run-8285c7440571 Created 
+2026-10-05T20:48:42.485795 [warning  ] Cognee 1.0 changes: New API — remember/recall/forget/improve (V1 add/cognify/search still work). Session memory enabled by default (CACHING=false to disable). Multi-user access control on by default (ENABLE_BACKEND_ACCESS_CONTROL=false to disable). Agents (@cognee.agent) auto-verified on registration. See https://docs.cognee.ai/ [cognee.shared.logging_utils]
+2026-10-05T20:48:45.142424 [warning  ] Extracting the knowledge graph with the GLiNER demo extractor: cognee's open-source local extraction, free to use with no LLM key. The production-grade GLiNER extraction (higher accuracy and broader label coverage) is available with a cognee enterprise licence; write to social@cognee.ai to explore the options. [cognify.config]
+2026-10-05T20:48:45.432073 [info     ] Loading local model BAAI/bge-small-en-v1.5 from /cognee-storage/models/fastembed [FastembedEmbeddingEngine]
+2026-10-05T20:48:46.259555 [info     ] Obsidian: 297 notes in vault, 19 emitted, 1 deleted. [obsidian_connector]
+2026-10-05T20:48:54.530135 [info     ] Deleting 19 orphaned dlt row(s) from dataset 'obsidian_vault'. [resolve_dlt_sources]
+2026-10-05T20:48:55.020138 [info     ] Deleted 101 orphaned EdgeType node(s) [provenance_delete_planner]
+2026-10-05T20:48:55.446758 [info     ] Deleted 62 orphaned EdgeType node(s) [provenance_delete_planner]
+2026-10-05T20:48:55.738239 [info     ] Deleted 66 orphaned EdgeType node(s) [provenance_delete_planner]
+2026-10-05T20:48:56.119976 [info     ] Deleted 47 orphaned EdgeType node(s) [provenance_delete_planner]
+2026-10-05T20:48:56.565744 [info     ] Deleted 69 orphaned EdgeType node(s) [provenance_delete_planner]
+2026-10-05T20:48:56.923887 [info     ] Deleted 35 orphaned EdgeType node(s) [provenance_delete_planner]
+2026-10-05T20:48:57.267033 [info     ] Deleted 41 orphaned EdgeType node(s) [provenance_delete_planner]
+2026-10-05T20:48:57.609277 [info     ] Deleted 20 orphaned EdgeType node(s) [provenance_delete_planner]
+2026-10-05T20:48:57.826390 [info     ] Deleted 12 orphaned EdgeType node(s) [provenance_delete_planner]
+2026-10-05T20:48:58.134733 [info     ] Deleted 20 orphaned EdgeType node(s) [provenance_delete_planner]
+2026-10-05T20:48:58.446112 [info     ] Deleted 14 orphaned EdgeType node(s) [provenance_delete_planner]
+2026-10-05T20:48:58.762981 [info     ] Deleted 12 orphaned EdgeType node(s) [provenance_delete_planner]
+2026-10-05T20:48:59.068531 [info     ] Deleted 8 orphaned EdgeType node(s) [provenance_delete_planner]
+2026-10-05T20:48:59.272069 [info     ] Deleted 9 orphaned EdgeType node(s) [provenance_delete_planner]
+2026-10-05T20:48:59.639853 [info     ] Deleted 15 orphaned EdgeType node(s) [provenance_delete_planner]
+2026-10-05T20:48:59.929363 [info     ] Deleted 7 orphaned EdgeType node(s) [provenance_delete_planner]
+2026-10-05T20:49:00.263653 [info     ] Deleted 9 orphaned EdgeType node(s) [provenance_delete_planner]
+2026-10-05T20:49:00.459164 [info     ] Deleted 7 orphaned EdgeType node(s) [provenance_delete_planner]
+2026-10-05T20:49:00.741167 [info     ] Deleted 3 orphaned EdgeType node(s) [provenance_delete_planner]
+2026-10-05T20:49:03.360548 [info     ] Loading local model fastino/gliner2.5-base-v1 from /cognee-storage/models/hf/hub [gliner.extractor]
+2026-10-05T20:49:08.681997 [info     ] GLiNER model fastino/gliner2.5-base-v1 ready in 5.3s [gliner.extractor]
+2026-10-05T20:50:37.706377 [info     ] remember: running self-improvement on dataset 'obsidian_vault' [remember]
+sync ok in 113s (remember 113s): RememberResult(status='completed', dataset='obsidian_vault', dataset_id='6ab75593-9b6e-5bf8-b10d-ce14d5d35f55', pipeline_run_id='7b5794d4-0e5d-4442-ba66-5a37f013f239', items=297, elapsed=111.6s, improve='skipped')
+link_edges: {"dataset_id": "6ab75593-9b6e-5bf8-b10d-ce14d5d35f55", "documents": 297, "notes_in_staging": 297, "links_to_desired": 1114, "links_to_inserted": 196, "links_to_removed": 0, "links_without_document": 0, "seconds": 0.0}
+wall clock: 118s
+cognee-obsidian-deploy-api-1: peak mem 608 MiB, peak cpu 0%
+cognee-obsidian-deploy-postgres-1: peak mem 184 MiB, peak cpu 26%
+cognee-obsidian-deploy-sync-run-8285c7440571: peak mem 4413 MiB, peak cpu 392%
+SYNC2_RC=0

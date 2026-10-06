@@ -1,0 +1,6 @@
+        document_owning_the_chunk         |                             note                             |                                                                           chunk_excerpt                                                                            
+------------------------------------------+--------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ How can I share my snippet with someone? | articles/12942523-how-can-i-share-my-snippet-with-someone.md | warning] > **_[[articles/11793611-how-to-mention-collaborators-in-comments|👉🏼 How to mention collaborators in comments]]_** **Inside your Inbox:** You can’t add
+ Mention & Search                         | collections/14013988-mention-and-search.md                   | # Mention & Search ## Articles - [[articles/9805412-mention-users-from-slack|Mention users from Slack]] - [[articles/11793611-how-to-mention-collaborators-in-co
+(2 rows)
+

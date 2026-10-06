@@ -1,0 +1,13 @@
+contains|5321
+is_a|1924
+links_to|1114
+is_part_of|434
+made_from|434
+available_on|99
+part_of|77
+performed_on|73
+exports_to|65
+integrates_with|52
+requires_role|51
+triggered_by|26
+hosts|1

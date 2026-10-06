@@ -1,0 +1,40 @@
+zf.addEventListener(\'click\', () => {\n    const svgEl = 
+document.getElementById(\'semantic-svg\');\n    if (svgEl && zoomBehavior) 
+d3.select(svgEl).transition().duration(200).call(zoomBehavior.transform, 
+d3.zoomIdentity);\n  });\n\n  / Recall overlay: pick a past recall query, light 
+up the nodes it retrieved.\n  (function initRecall() {\n    const wrap = 
+document.getElementById(\'semantic-recall-wrap\');\n    const select = 
+document.getElementById(\'semantic-recall\');\n    const note = 
+document.getElementById(\'semantic-recall-note\');\n    if (!select) return;\n  
+const queries = recallQueries(SEARCH_EVENTS);\n    if (!queries.length) {\n     
+if (wrap) wrap.style.display = \'none\';  / nothing to overlay\n      return;\n 
+}\n    queries.forEach((e, i) => {\n      const opt = 
+document.createElement(\'option\');\n      opt.value = String(i);\n      const q
+= (e.question || \'recall \' + (i + 1)).trim();\n      opt.textContent = 
+truncate(q, 40);\n      select.appendChild(opt);\n    });\n    
+select.addEventListener(\'change\', () => {\n      const idx = select.value;\n  
+if (idx === \'\') {\n        state.recall = null;\n        if (note) 
+note.textContent = \'\';\n      } else {\n        const evt = queries[+idx];\n  
+state.recall = new Set((evt.node_ids || []).map(String));\n        const 
+positions = window._semanticPositions || {};\n        if (note) note.textContent
+= recallOnMap(evt, positions) + \' of \' + (evt.node_ids || []).length + \' on 
+map\';\n      }\n      repaint();\n    });\n  })();\n\n  / Deep link: #semantic 
+opens the tab on load.\n  if (window.location.hash === \'#semantic\') {\n    
+const btn = document.querySelector(\'.tab-btn[data-view="semantic"]\');\n    if 
+  File "/app/sync/visualize.py", line 38, in <module>
+    asyncio.run(main())
+  File "/usr/local/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/app/sync/visualize.py", line 34, in main
+    print(path, pathlib.Path(path).stat().st_size, "bytes")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/pathlib.py", line 840, in stat
+    return os.stat(self, follow_symlinks=follow_symlinks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
