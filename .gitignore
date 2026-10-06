@@ -1,5 +1,4 @@
 .env
-vault/
 __pycache__/
 *.pyc
 proof/*.tmp

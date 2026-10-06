@@ -1,0 +1,2222 @@
+{
+ "source": "../help/src/content/docs/en",
+ "notes": 297,
+ "skipped_drafts": 128,
+ "skipped_draft_paths": [
+  "articles/10002490-show-all-highlights.md",
+  "articles/10183793-delete-your-account.md",
+  "articles/10183863-reverse-locate.md",
+  "articles/10205024-collaborate-with-people.md",
+  "articles/10221467-organize-your-workspace.md",
+  "articles/10294492-reordering-clusters-and-topics.md",
+  "articles/10323111-untitled-public-article.md",
+  "articles/10323123-private-documents.md",
+  "articles/10335243-tag-management.md",
+  "articles/10476893-how-to-change-workspace.md",
+  "articles/10491050-delete-workspace.md",
+  "articles/10494545-start-here.md",
+  "articles/10495261-what-is-a-snippet.md",
+  "articles/10501969-untitled-public-article.md",
+  "articles/10502167-install-browser-extension.md",
+  "articles/10668191-what-is-a-topic.md",
+  "articles/10669645-what-is-a-cluster.md",
+  "articles/10669752-how-to-delete-in-collabwriting.md",
+  "articles/10681633-share-your-work.md",
+  "articles/11020296-edit-snippet-link.md",
+  "articles/11020653-edge-mobile-extension.md",
+  "articles/11393509-leave-a-comment.md",
+  "articles/11478326-test.md",
+  "articles/11478349-untitled-public-article.md",
+  "articles/11478365-industry-market-research.md",
+  "articles/11478404-industry-market-research.md",
+  "articles/11478436-client-specific-insight-curation.md",
+  "articles/11484317-cross-functional-contract-collaboration.md",
+  "articles/11484375-regulatory-compliance-monitoring.md",
+  "articles/11515827-document-management.md",
+  "articles/11521855-all-about-topics.md",
+  "articles/11524760-extension-settings.md",
+  "articles/11641494-most-highlighted.md",
+  "articles/11641726-focus-on-bookmark.md",
+  "articles/11646104-blockquote-styling-in-dashboard.md",
+  "articles/11652978-untitled-public-article.md",
+  "articles/11748010-how-collabwriting-helps-you-organize-and-use-information.md",
+  "articles/11748220-what-is-a-topic.md",
+  "articles/11748247-csacs.md",
+  "articles/11757995-mark-snippets-as-done.md",
+  "articles/11776061-access-kindle-and-import-highlights.md",
+  "articles/11776096-mentioning-users-from-slack.md",
+  "articles/11782890-tags.md",
+  "articles/11784837-ai-research-copilot.md",
+  "articles/11784983-find-more-snippets-on-copilot.md",
+  "articles/11792051-sharing-options-clusters-topics-snippets.md",
+  "articles/11792056-general-access-explained.md",
+  "articles/11793847-what-are-ai-research-suggestions.md",
+  "articles/11822281-open-on-startup.md",
+  "articles/11822805-can-i-export-the-data-from-collabwriting.md",
+  "articles/12460050-how-to-add-annotations-to-pdfs-on-desktop.md",
+  "articles/12498884-untitled-public-article.md",
+  "articles/12621032-untitled-public-article.md",
+  "articles/12629957-focus-on-bookmark.md",
+  "articles/12929693-will-i-lose-everything-i-saved-in-cluing-after-my-free-trial-ends.md",
+  "articles/13177740-untitled-public-article.md",
+  "articles/13600356-customized-email-domain.md",
+  "articles/15177889-knowledge-graphs.md",
+  "articles/15178269-buckets.md",
+  "articles/15393497-what-is-mcp-and-why-does-it-matter.md",
+  "articles/16034990-referral-rewards-the-gifts-panel.md",
+  "articles/16248120-untitled-public-article.md",
+  "articles/16415041-agent-settings.md",
+  "articles/7118584-getting-started-with-collabwriting.md",
+  "articles/7729152-how-to-access-the-collabwriting-dashboard.md",
+  "articles/7729184-sharing-and-permissions.md",
+  "articles/7729187-how-to-export-your-snippets-topics.md",
+  "articles/7729192-how-to-manage-a-collabwriting-workspace.md",
+  "articles/7729314-how-to-change-the-name-of-the-topic.md",
+  "articles/7729315-how-to-find-a-specific-topic.md",
+  "articles/7826078-faq.md",
+  "articles/7835910-collabwriting-shortcuts.md",
+  "articles/7835912-how-to-open-a-pdf-in-collabwriting.md",
+  "articles/7835914-how-to-upgrade-your-cluing-account.md",
+  "articles/7835921-how-to-share-a-collabwriting-link.md",
+  "articles/7852004-what-are-the-benefits-of-collabwriting.md",
+  "articles/7852007-who-can-access-my-topics-and-clusters.md",
+  "articles/7852009-how-many-roles-exist-in-collabwriting.md",
+  "articles/7852010-is-there-a-limit-to-how-many-clusters-topics-snippets-i-can-create.md",
+  "articles/7852011-which-industries-does-collabwriting-support.md",
+  "articles/7852013-how-does-your-pricing-work.md",
+  "articles/7955561-how-to-use-tags-in-collabwriting.md",
+  "articles/7955569-what-is-a-cluster-in-collabwriting-and-how-to-add-one.md",
+  "articles/7958570-how-to-style-a-shared-topic.md",
+  "articles/7958744-how-to-search-through-the-app.md",
+  "articles/7992379-how-to-save-screenshots-with-collabwriting.mdx",
+  "articles/8019129-how-to-change-workspace-name.md",
+  "articles/8030872-untitled.md",
+  "articles/8030890-how-to-add-users-to-clusters.md",
+  "articles/8031204-how-to-activate-the-additional-accounts-from-tier-2.md",
+  "articles/8057304-how-to-import-highlights-from-kindle.md",
+  "articles/8057454-drag-drop-snippets-to-external-resources.md",
+  "articles/8115802-snippet-title.md",
+  "articles/8136154-collabwriting-extension-shortcut.md",
+  "articles/8141642-how-to-hide-highlighter-button.md",
+  "articles/8281707-accessing-research-copilot.mdx",
+  "articles/8519615-how-to-save-linkedin-posts-as-snippets.md",
+  "articles/8522034-change-the-order-of-snippets.md",
+  "articles/8529726-adding-topics-to-clusters-directly-on-extension.md",
+  "articles/8544255-how-to-add-a-topic-description.md",
+  "articles/8548003-how-to-save-twitter-posts-as-snippets.md",
+  "articles/8548012-find-more-snippets-on-copilot.md",
+  "articles/8548345-can-i-export-the-data-from-collabwriting.md",
+  "articles/8555427-how-to-switch-between-workspaces.md",
+  "articles/8596400-is-there-a-limit-to-how-many-collaborators-i-can-add.md",
+  "articles/8596516-what-browsers-does-collabwriting-support.md",
+  "articles/8612602-bulk-select-delete-snippets.md",
+  "articles/8680057-how-to-capture-youtube-screenshots-and-save-transcripts.md",
+  "articles/8683734-how-to-move-snippets-to-another-topic.md",
+  "articles/8804549-how-to-save-reddit-posts-as-snippets.md",
+  "articles/8879474-how-to-share-topic.md",
+  "articles/8976098-grid-view.md",
+  "articles/8985144-how-to-save-quora-posts-as-snippets.md",
+  "articles/9046851-undo-topic-creation-on-extension.md",
+  "articles/9047484-snippets-saving-preference.md",
+  "articles/9064211-how-does-collabwriting-work.md",
+  "articles/9064220-how-does-the-ai-research-copilot-benefit-me.md",
+  "articles/9128460-user-settings.md",
+  "articles/9204140-team-version.md",
+  "articles/9415061-topic-archive.md",
+  "articles/9496530-snippet-reactions.md",
+  "articles/9532114-mentions.md",
+  "articles/9571720-topic-search-on-extension.md",
+  "articles/9669510-duplicate-topic.md",
+  "articles/9717097-bookmarks.md",
+  "articles/9720601-free-plan.md",
+  "articles/9767493-installing-collabwriting-slack-app.md",
+  "articles/9805490-inbox-topic.md"
+ ],
+ "stats": {
+  "links_converted": 1157,
+  "links_to_missing_or_draft": 8,
+  "mdx_converted": 0,
+  "asides": 476
+ },
+ "mapping": [
+  {
+   "source": "articles/10501971-streamlined-research-process.md",
+   "note": "articles/10501971-streamlined-research-process.md",
+   "title": "Streamlined Research Process",
+   "url": "https://help.cluing.io/en/articles/10501971-streamlined-research-process",
+   "bytes": 7198
+  },
+  {
+   "source": "articles/10502710-content-discovery-inspiration.md",
+   "note": "articles/10502710-content-discovery-inspiration.md",
+   "title": "Content Discovery & Inspiration",
+   "url": "https://help.cluing.io/en/articles/10502710-content-discovery-inspiration",
+   "bytes": 4259
+  },
+  {
+   "source": "articles/10502922-collaborative-insight-gathering.md",
+   "note": "articles/10502922-collaborative-insight-gathering.md",
+   "title": "Collaborative Insight Gathering",
+   "url": "https://help.cluing.io/en/articles/10502922-collaborative-insight-gathering",
+   "bytes": 6719
+  },
+  {
+   "source": "articles/10503149-brand-research-strategy.md",
+   "note": "articles/10503149-brand-research-strategy.md",
+   "title": "Brand Research & Strategy",
+   "url": "https://help.cluing.io/en/articles/10503149-brand-research-strategy",
+   "bytes": 5263
+  },
+  {
+   "source": "articles/10506070-the-content-marketing-workflow-in-cluing.md",
+   "note": "articles/10506070-the-content-marketing-workflow-in-cluing.md",
+   "title": "The Content Marketing Workflow in Cluing",
+   "url": "https://help.cluing.io/en/articles/10506070-the-content-marketing-workflow-in-cluing",
+   "bytes": 8310
+  },
+  {
+   "source": "articles/10506247-social-media-marketing-workflow.md",
+   "note": "articles/10506247-social-media-marketing-workflow.md",
+   "title": "Social Media Marketing Workflow",
+   "url": "https://help.cluing.io/en/articles/10506247-social-media-marketing-workflow",
+   "bytes": 7664
+  },
+  {
+   "source": "articles/11508381-organized-study-research-materials.md",
+   "note": "articles/11508381-organized-study-research-materials.md",
+   "title": "Organized Study & Research Materials",
+   "url": "https://help.cluing.io/en/articles/11508381-organized-study-research-materials",
+   "bytes": 7957
+  },
+  {
+   "source": "articles/11508681-industry-market-research.md",
+   "note": "articles/11508681-industry-market-research.md",
+   "title": "Industry & Market Research",
+   "url": "https://help.cluing.io/en/articles/11508681-industry-market-research",
+   "bytes": 7426
+  },
+  {
+   "source": "articles/11508684-build-a-client-knowledge-base-with-context.md",
+   "note": "articles/11508684-build-a-client-knowledge-base-with-context.md",
+   "title": "Build a client knowledge base with context",
+   "url": "https://help.cluing.io/en/articles/11508684-build-a-client-knowledge-base-with-context",
+   "bytes": 5753
+  },
+  {
+   "source": "articles/11508699-cross-functional-contract-collaboration-with-cluing-ai.md",
+   "note": "articles/11508699-cross-functional-contract-collaboration-with-cluing-ai.md",
+   "title": "Cross-Functional Contract Collaboration with Cluing AI",
+   "url": "https://help.cluing.io/en/articles/11508699-cross-functional-contract-collaboration-with-cluing-ai",
+   "bytes": 11791
+  },
+  {
+   "source": "articles/11508705-regulatory-research-organized-with-ai.md",
+   "note": "articles/11508705-regulatory-research-organized-with-ai.md",
+   "title": "Regulatory Research, Organized with AI",
+   "url": "https://help.cluing.io/en/articles/11508705-regulatory-research-organized-with-ai",
+   "bytes": 6654
+  },
+  {
+   "source": "articles/11748259-what-is-a-topic.md",
+   "note": "articles/11748259-what-is-a-topic.md",
+   "title": "What is a Topic?",
+   "url": "https://help.cluing.io/en/articles/11748259-what-is-a-topic",
+   "bytes": 1604
+  },
+  {
+   "source": "articles/11748278-what-is-the-cluing-inbox.md",
+   "note": "articles/11748278-what-is-the-cluing-inbox.md",
+   "title": "What is the Cluing Inbox?",
+   "url": "https://help.cluing.io/en/articles/11748278-what-is-the-cluing-inbox",
+   "bytes": 1978
+  },
+  {
+   "source": "articles/11748302-how-to-create-a-new-topic.md",
+   "note": "articles/11748302-how-to-create-a-new-topic.md",
+   "title": "How to create a new Topic?",
+   "url": "https://help.cluing.io/en/articles/11748302-how-to-create-a-new-topic",
+   "bytes": 1989
+  },
+  {
+   "source": "articles/11748316-how-to-back-out-of-creating-a-topic.md",
+   "note": "articles/11748316-how-to-back-out-of-creating-a-topic.md",
+   "title": "How to back out of creating a Topic?",
+   "url": "https://help.cluing.io/en/articles/11748316-how-to-back-out-of-creating-a-topic",
+   "bytes": 1052
+  },
+  {
+   "source": "articles/11748326-how-to-archive-a-topic.md",
+   "note": "articles/11748326-how-to-archive-a-topic.md",
+   "title": "How to Archive a Topic?",
+   "url": "https://help.cluing.io/en/articles/11748326-how-to-archive-a-topic",
+   "bytes": 1590
+  },
+  {
+   "source": "articles/11748496-how-to-unarchive-a-topic.md",
+   "note": "articles/11748496-how-to-unarchive-a-topic.md",
+   "title": "How to Unarchive a Topic?",
+   "url": "https://help.cluing.io/en/articles/11748496-how-to-unarchive-a-topic",
+   "bytes": 1548
+  },
+  {
+   "source": "articles/11748718-how-to-delete-a-topic.md",
+   "note": "articles/11748718-how-to-delete-a-topic.md",
+   "title": "How to delete a Topic?",
+   "url": "https://help.cluing.io/en/articles/11748718-how-to-delete-a-topic",
+   "bytes": 1938
+  },
+  {
+   "source": "articles/11748750-how-to-delete-a-topic.md",
+   "note": "articles/11748750-how-to-delete-a-topic.md",
+   "title": "How to delete a Topic?",
+   "url": "https://help.cluing.io/en/articles/11748750-how-to-delete-a-topic",
+   "bytes": 418
+  },
+  {
+   "source": "articles/11748767-how-to-see-who-created-a-topic.md",
+   "note": "articles/11748767-how-to-see-who-created-a-topic.md",
+   "title": "How to see who created a Topic?",
+   "url": "https://help.cluing.io/en/articles/11748767-how-to-see-who-created-a-topic",
+   "bytes": 780
+  },
+  {
+   "source": "articles/11748989-print-or-save-a-topic-as-pdf.md",
+   "note": "articles/11748989-print-or-save-a-topic-as-pdf.md",
+   "title": "Print or Save a Topic as PDF",
+   "url": "https://help.cluing.io/en/articles/11748989-print-or-save-a-topic-as-pdf",
+   "bytes": 1477
+  },
+  {
+   "source": "articles/11749010-how-to-make-a-copy-of-a-topic.md",
+   "note": "articles/11749010-how-to-make-a-copy-of-a-topic.md",
+   "title": "How to make a copy of a Topic?",
+   "url": "https://help.cluing.io/en/articles/11749010-how-to-make-a-copy-of-a-topic",
+   "bytes": 1321
+  },
+  {
+   "source": "articles/11757950-how-to-add-a-topic-description.md",
+   "note": "articles/11757950-how-to-add-a-topic-description.md",
+   "title": "How to add a Topic Description",
+   "url": "https://help.cluing.io/en/articles/11757950-how-to-add-a-topic-description",
+   "bytes": 1060
+  },
+  {
+   "source": "articles/11758034-who-can-see-my-topics.md",
+   "note": "articles/11758034-who-can-see-my-topics.md",
+   "title": "Who can see my Topics?",
+   "url": "https://help.cluing.io/en/articles/11758034-who-can-see-my-topics",
+   "bytes": 1068
+  },
+  {
+   "source": "articles/11767739-how-to-share-a-topic.md",
+   "note": "articles/11767739-how-to-share-a-topic.md",
+   "title": "How to Share a Topic?",
+   "url": "https://help.cluing.io/en/articles/11767739-how-to-share-a-topic",
+   "bytes": 1572
+  },
+  {
+   "source": "articles/11767960-subscribe-or-unsubscribe-to-a-topic.md",
+   "note": "articles/11767960-subscribe-or-unsubscribe-to-a-topic.md",
+   "title": "Subscribe or Unsubscribe to a Topic",
+   "url": "https://help.cluing.io/en/articles/11767960-subscribe-or-unsubscribe-to-a-topic",
+   "bytes": 1601
+  },
+  {
+   "source": "articles/11768060-layout-options-for-topics.md",
+   "note": "articles/11768060-layout-options-for-topics.md",
+   "title": "Layout options for Topics",
+   "url": "https://help.cluing.io/en/articles/11768060-layout-options-for-topics",
+   "bytes": 1415
+  },
+  {
+   "source": "articles/11768139-download-topic-as-a-csv-file.md",
+   "note": "articles/11768139-download-topic-as-a-csv-file.md",
+   "title": "Download Topic as a CSV file",
+   "url": "https://help.cluing.io/en/articles/11768139-download-topic-as-a-csv-file",
+   "bytes": 1535
+  },
+  {
+   "source": "articles/11768217-how-to-see-topic-activity.md",
+   "note": "articles/11768217-how-to-see-topic-activity.md",
+   "title": "How to see Topic Activity",
+   "url": "https://help.cluing.io/en/articles/11768217-how-to-see-topic-activity",
+   "bytes": 1148
+  },
+  {
+   "source": "articles/11768446-how-to-copy-a-topic-to-another-workspace.md",
+   "note": "articles/11768446-how-to-copy-a-topic-to-another-workspace.md",
+   "title": "How to copy a topic to another workspace?",
+   "url": "https://help.cluing.io/en/articles/11768446-how-to-copy-a-topic-to-another-workspace",
+   "bytes": 1190
+  },
+  {
+   "source": "articles/11768583-how-to-quickly-find-a-topic.md",
+   "note": "articles/11768583-how-to-quickly-find-a-topic.md",
+   "title": "How to quickly find a Topic?",
+   "url": "https://help.cluing.io/en/articles/11768583-how-to-quickly-find-a-topic",
+   "bytes": 1090
+  },
+  {
+   "source": "articles/11768597-how-to-change-the-name-of-a-topic.md",
+   "note": "articles/11768597-how-to-change-the-name-of-a-topic.md",
+   "title": "How to change the name of a Topic?",
+   "url": "https://help.cluing.io/en/articles/11768597-how-to-change-the-name-of-a-topic",
+   "bytes": 1506
+  },
+  {
+   "source": "articles/11768652-reordering-topics.md",
+   "note": "articles/11768652-reordering-topics.md",
+   "title": "Reordering Topics",
+   "url": "https://help.cluing.io/en/articles/11768652-reordering-topics",
+   "bytes": 948
+  },
+  {
+   "source": "articles/11768730-what-is-a-cluster.md",
+   "note": "articles/11768730-what-is-a-cluster.md",
+   "title": "What is a Cluster?",
+   "url": "https://help.cluing.io/en/articles/11768730-what-is-a-cluster",
+   "bytes": 1721
+  },
+  {
+   "source": "articles/11768749-how-to-create-a-new-cluster.md",
+   "note": "articles/11768749-how-to-create-a-new-cluster.md",
+   "title": "How to create a new Cluster?",
+   "url": "https://help.cluing.io/en/articles/11768749-how-to-create-a-new-cluster",
+   "bytes": 1488
+  },
+  {
+   "source": "articles/11768778-how-to-delete-a-cluster.md",
+   "note": "articles/11768778-how-to-delete-a-cluster.md",
+   "title": "How to delete a Cluster?",
+   "url": "https://help.cluing.io/en/articles/11768778-how-to-delete-a-cluster",
+   "bytes": 939
+  },
+  {
+   "source": "articles/11768796-how-to-add-users-to-clusters.md",
+   "note": "articles/11768796-how-to-add-users-to-clusters.md",
+   "title": "How to add users to Clusters?",
+   "url": "https://help.cluing.io/en/articles/11768796-how-to-add-users-to-clusters",
+   "bytes": 2481
+  },
+  {
+   "source": "articles/11768949-how-to-rename-a-cluster.md",
+   "note": "articles/11768949-how-to-rename-a-cluster.md",
+   "title": "How to rename a Cluster?",
+   "url": "https://help.cluing.io/en/articles/11768949-how-to-rename-a-cluster",
+   "bytes": 1002
+  },
+  {
+   "source": "articles/11769020-private-clusters-team-version.md",
+   "note": "articles/11769020-private-clusters-team-version.md",
+   "title": "Private Clusters (Team Version)",
+   "url": "https://help.cluing.io/en/articles/11769020-private-clusters-team-version",
+   "bytes": 896
+  },
+  {
+   "source": "articles/11769045-change-the-order-of-the-clusters.md",
+   "note": "articles/11769045-change-the-order-of-the-clusters.md",
+   "title": "Change the order of the Clusters",
+   "url": "https://help.cluing.io/en/articles/11769045-change-the-order-of-the-clusters",
+   "bytes": 903
+  },
+  {
+   "source": "articles/11769093-create-a-new-topic-in-a-cluster.md",
+   "note": "articles/11769093-create-a-new-topic-in-a-cluster.md",
+   "title": "Create a new Topic in a Cluster",
+   "url": "https://help.cluing.io/en/articles/11769093-create-a-new-topic-in-a-cluster",
+   "bytes": 1048
+  },
+  {
+   "source": "articles/11774653-what-is-a-snippet.md",
+   "note": "articles/11774653-what-is-a-snippet.md",
+   "title": "What is a snippet?",
+   "url": "https://help.cluing.io/en/articles/11774653-what-is-a-snippet",
+   "bytes": 914
+  },
+  {
+   "source": "articles/11774673-how-to-create-a-snippet.md",
+   "note": "articles/11774673-how-to-create-a-snippet.md",
+   "title": "How to create a snippet?",
+   "url": "https://help.cluing.io/en/articles/11774673-how-to-create-a-snippet",
+   "bytes": 1044
+  },
+  {
+   "source": "articles/11774969-how-to-add-a-snippet-title.md",
+   "note": "articles/11774969-how-to-add-a-snippet-title.md",
+   "title": "How to add a snippet title?",
+   "url": "https://help.cluing.io/en/articles/11774969-how-to-add-a-snippet-title",
+   "bytes": 1851
+  },
+  {
+   "source": "articles/11775035-how-to-locate-a-snippet.md",
+   "note": "articles/11775035-how-to-locate-a-snippet.md",
+   "title": "How to locate a snippet?",
+   "url": "https://help.cluing.io/en/articles/11775035-how-to-locate-a-snippet",
+   "bytes": 894
+  },
+  {
+   "source": "articles/11775676-snippet-reactions.md",
+   "note": "articles/11775676-snippet-reactions.md",
+   "title": "Snippet Reactions 👍🏼",
+   "url": "https://help.cluing.io/en/articles/11775676-snippet-reactions",
+   "bytes": 1415
+  },
+  {
+   "source": "articles/11775739-drag-drop-snippets-to-external-sources.md",
+   "note": "articles/11775739-drag-drop-snippets-to-external-sources.md",
+   "title": "Drag & Drop snippets to external sources",
+   "url": "https://help.cluing.io/en/articles/11775739-drag-drop-snippets-to-external-sources",
+   "bytes": 857
+  },
+  {
+   "source": "articles/11775844-bulk-select-delete-snippets.md",
+   "note": "articles/11775844-bulk-select-delete-snippets.md",
+   "title": "Bulk Select & Delete Snippets",
+   "url": "https://help.cluing.io/en/articles/11775844-bulk-select-delete-snippets",
+   "bytes": 1424
+  },
+  {
+   "source": "articles/11775890-how-to-change-the-order-of-snippets.md",
+   "note": "articles/11775890-how-to-change-the-order-of-snippets.md",
+   "title": "How to change the order of snippets?",
+   "url": "https://help.cluing.io/en/articles/11775890-how-to-change-the-order-of-snippets",
+   "bytes": 1726
+  },
+  {
+   "source": "articles/11775926-edit-and-verify-snippet-link.md",
+   "note": "articles/11775926-edit-and-verify-snippet-link.md",
+   "title": "Edit and Verify Snippet Link",
+   "url": "https://help.cluing.io/en/articles/11775926-edit-and-verify-snippet-link",
+   "bytes": 1175
+  },
+  {
+   "source": "articles/11775952-collapse-expand-long-snippets.md",
+   "note": "articles/11775952-collapse-expand-long-snippets.md",
+   "title": "Collapse & Expand Long Snippets",
+   "url": "https://help.cluing.io/en/articles/11775952-collapse-expand-long-snippets",
+   "bytes": 943
+  },
+  {
+   "source": "articles/11775995-copy-all-your-snippets-with-comments.md",
+   "note": "articles/11775995-copy-all-your-snippets-with-comments.md",
+   "title": "Copy all your snippets (with comments)",
+   "url": "https://help.cluing.io/en/articles/11775995-copy-all-your-snippets-with-comments",
+   "bytes": 1250
+  },
+  {
+   "source": "articles/11776028-installing-the-cluing-slack-app.md",
+   "note": "articles/11776028-installing-the-cluing-slack-app.md",
+   "title": "Installing the Cluing Slack App",
+   "url": "https://help.cluing.io/en/articles/11776028-installing-the-cluing-slack-app",
+   "bytes": 1263
+  },
+  {
+   "source": "articles/11776127-add-a-comment-to-a-snippet.md",
+   "note": "articles/11776127-add-a-comment-to-a-snippet.md",
+   "title": "Add a comment to a snippet",
+   "url": "https://help.cluing.io/en/articles/11776127-add-a-comment-to-a-snippet",
+   "bytes": 1489
+  },
+  {
+   "source": "articles/11776264-reply-to-a-comment.md",
+   "note": "articles/11776264-reply-to-a-comment.md",
+   "title": "Reply to a Comment",
+   "url": "https://help.cluing.io/en/articles/11776264-reply-to-a-comment",
+   "bytes": 996
+  },
+  {
+   "source": "articles/11776319-how-to-preview-who-created-a-comment-and-when.md",
+   "note": "articles/11776319-how-to-preview-who-created-a-comment-and-when.md",
+   "title": "How to preview who created a comment and when?",
+   "url": "https://help.cluing.io/en/articles/11776319-how-to-preview-who-created-a-comment-and-when",
+   "bytes": 1005
+  },
+  {
+   "source": "articles/11776785-how-to-delete-or-edit-a-comment.md",
+   "note": "articles/11776785-how-to-delete-or-edit-a-comment.md",
+   "title": "How to Delete or Edit a Comment?",
+   "url": "https://help.cluing.io/en/articles/11776785-how-to-delete-or-edit-a-comment",
+   "bytes": 1022
+  },
+  {
+   "source": "articles/11776964-how-to-paste-links-in-comments.md",
+   "note": "articles/11776964-how-to-paste-links-in-comments.md",
+   "title": "How to paste links in comments?",
+   "url": "https://help.cluing.io/en/articles/11776964-how-to-paste-links-in-comments",
+   "bytes": 695
+  },
+  {
+   "source": "articles/11776987-how-to-add-an-image-to-the-comment.md",
+   "note": "articles/11776987-how-to-add-an-image-to-the-comment.md",
+   "title": "How to add an image to the comment?",
+   "url": "https://help.cluing.io/en/articles/11776987-how-to-add-an-image-to-the-comment",
+   "bytes": 895
+  },
+  {
+   "source": "articles/11777008-how-to-save-an-image-as-a-snippet.md",
+   "note": "articles/11777008-how-to-save-an-image-as-a-snippet.md",
+   "title": "How to save an image as a snippet?",
+   "url": "https://help.cluing.io/en/articles/11777008-how-to-save-an-image-as-a-snippet",
+   "bytes": 852
+  },
+  {
+   "source": "articles/11777057-how-to-add-bullets-in-comments.md",
+   "note": "articles/11777057-how-to-add-bullets-in-comments.md",
+   "title": "How to Add Bullets in Comments?",
+   "url": "https://help.cluing.io/en/articles/11777057-how-to-add-bullets-in-comments",
+   "bytes": 824
+  },
+  {
+   "source": "articles/11782904-how-to-add-tags-to-snippets.md",
+   "note": "articles/11782904-how-to-add-tags-to-snippets.md",
+   "title": "How to Add Tags to Snippets?",
+   "url": "https://help.cluing.io/en/articles/11782904-how-to-add-tags-to-snippets",
+   "bytes": 1911
+  },
+  {
+   "source": "articles/11782973-how-to-edit-or-delete-a-tag.md",
+   "note": "articles/11782973-how-to-edit-or-delete-a-tag.md",
+   "title": "How to Edit or Delete a Tag?",
+   "url": "https://help.cluing.io/en/articles/11782973-how-to-edit-or-delete-a-tag",
+   "bytes": 779
+  },
+  {
+   "source": "articles/11783020-searching-by-tags.md",
+   "note": "articles/11783020-searching-by-tags.md",
+   "title": "Searching by Tags",
+   "url": "https://help.cluing.io/en/articles/11783020-searching-by-tags",
+   "bytes": 928
+  },
+  {
+   "source": "articles/11783104-mark-snippets-as-done.md",
+   "note": "articles/11783104-mark-snippets-as-done.md",
+   "title": "Mark Snippets as Done",
+   "url": "https://help.cluing.io/en/articles/11783104-mark-snippets-as-done",
+   "bytes": 1628
+  },
+  {
+   "source": "articles/11783170-copy-content-from-a-single-snippet.md",
+   "note": "articles/11783170-copy-content-from-a-single-snippet.md",
+   "title": "Copy Content From a Single Snippet",
+   "url": "https://help.cluing.io/en/articles/11783170-copy-content-from-a-single-snippet",
+   "bytes": 1197
+  },
+  {
+   "source": "articles/11783231-how-to-move-snippets-to-another-topic.md",
+   "note": "articles/11783231-how-to-move-snippets-to-another-topic.md",
+   "title": "How to Move Snippets to Another Topic?",
+   "url": "https://help.cluing.io/en/articles/11783231-how-to-move-snippets-to-another-topic",
+   "bytes": 1422
+  },
+  {
+   "source": "articles/11783251-bookmarks-save-now-read-later.md",
+   "note": "articles/11783251-bookmarks-save-now-read-later.md",
+   "title": "Bookmarks - Save Now, Read Later",
+   "url": "https://help.cluing.io/en/articles/11783251-bookmarks-save-now-read-later",
+   "bytes": 1988
+  },
+  {
+   "source": "articles/11784000-how-to-open-an-online-pdf-in-cluing.md",
+   "note": "articles/11784000-how-to-open-an-online-pdf-in-cluing.md",
+   "title": "How to open an online PDF in Cluing?",
+   "url": "https://help.cluing.io/en/articles/11784000-how-to-open-an-online-pdf-in-cluing",
+   "bytes": 2461
+  },
+  {
+   "source": "articles/11784127-how-to-upload-pdfs-to-your-workspace.md",
+   "note": "articles/11784127-how-to-upload-pdfs-to-your-workspace.md",
+   "title": "How to upload PDFs to your workspace?",
+   "url": "https://help.cluing.io/en/articles/11784127-how-to-upload-pdfs-to-your-workspace",
+   "bytes": 1833
+  },
+  {
+   "source": "articles/11784184-how-to-delete-an-uploaded-document.md",
+   "note": "articles/11784184-how-to-delete-an-uploaded-document.md",
+   "title": "How to delete an uploaded Document?",
+   "url": "https://help.cluing.io/en/articles/11784184-how-to-delete-an-uploaded-document",
+   "bytes": 1202
+  },
+  {
+   "source": "articles/11784212-where-to-find-recently-uploaded-documents.md",
+   "note": "articles/11784212-where-to-find-recently-uploaded-documents.md",
+   "title": "Where to Find Recently Uploaded Documents?",
+   "url": "https://help.cluing.io/en/articles/11784212-where-to-find-recently-uploaded-documents",
+   "bytes": 1462
+  },
+  {
+   "source": "articles/11784360-how-to-change-highlight-colors-on-documents.md",
+   "note": "articles/11784360-how-to-change-highlight-colors-on-documents.md",
+   "title": "How to change highlight colors on Documents?",
+   "url": "https://help.cluing.io/en/articles/11784360-how-to-change-highlight-colors-on-documents",
+   "bytes": 948
+  },
+  {
+   "source": "articles/11784554-how-to-search-within-a-pdf.md",
+   "note": "articles/11784554-how-to-search-within-a-pdf.md",
+   "title": "How to Search Within a PDF?",
+   "url": "https://help.cluing.io/en/articles/11784554-how-to-search-within-a-pdf",
+   "bytes": 947
+  },
+  {
+   "source": "articles/11784579-importing-kindle-highlights.md",
+   "note": "articles/11784579-importing-kindle-highlights.md",
+   "title": "Importing Kindle Highlights",
+   "url": "https://help.cluing.io/en/articles/11784579-importing-kindle-highlights",
+   "bytes": 1215
+  },
+  {
+   "source": "articles/11784650-capture-youtube-videos.md",
+   "note": "articles/11784650-capture-youtube-videos.md",
+   "title": "Capture YouTube Videos",
+   "url": "https://help.cluing.io/en/articles/11784650-capture-youtube-videos",
+   "bytes": 1573
+  },
+  {
+   "source": "articles/11784694-capture-content-from-social-media-on-desktop.md",
+   "note": "articles/11784694-capture-content-from-social-media-on-desktop.md",
+   "title": "Capture Content from Social Media on Desktop",
+   "url": "https://help.cluing.io/en/articles/11784694-capture-content-from-social-media-on-desktop",
+   "bytes": 3578
+  },
+  {
+   "source": "articles/11784697-save-youtube-transcripts.md",
+   "note": "articles/11784697-save-youtube-transcripts.md",
+   "title": "Save YouTube Transcripts",
+   "url": "https://help.cluing.io/en/articles/11784697-save-youtube-transcripts",
+   "bytes": 950
+  },
+  {
+   "source": "articles/11784789-notion-googledocs-outlook-gmail.md",
+   "note": "articles/11784789-notion-googledocs-outlook-gmail.md",
+   "title": "Notion, GoogleDocs, Outlook, Gmail",
+   "url": "https://help.cluing.io/en/articles/11784789-notion-googledocs-outlook-gmail",
+   "bytes": 1031
+  },
+  {
+   "source": "articles/11785748-what-is-a-workspace-in-cluing.md",
+   "note": "articles/11785748-what-is-a-workspace-in-cluing.md",
+   "title": "What is a Workspace in Cluing?",
+   "url": "https://help.cluing.io/en/articles/11785748-what-is-a-workspace-in-cluing",
+   "bytes": 1548
+  },
+  {
+   "source": "articles/11785769-how-to-delete-a-workspace.md",
+   "note": "articles/11785769-how-to-delete-a-workspace.md",
+   "title": "How to delete a workspace?",
+   "url": "https://help.cluing.io/en/articles/11785769-how-to-delete-a-workspace",
+   "bytes": 1253
+  },
+  {
+   "source": "articles/11785971-how-to-rename-the-workspace.md",
+   "note": "articles/11785971-how-to-rename-the-workspace.md",
+   "title": "How to rename the workspace?",
+   "url": "https://help.cluing.io/en/articles/11785971-how-to-rename-the-workspace",
+   "bytes": 1124
+  },
+  {
+   "source": "articles/11791075-what-is-dashboard.md",
+   "note": "articles/11791075-what-is-dashboard.md",
+   "title": "What is Dashboard?",
+   "url": "https://help.cluing.io/en/articles/11791075-what-is-dashboard",
+   "bytes": 1505
+  },
+  {
+   "source": "articles/11791136-home-page-on-dashboard.md",
+   "note": "articles/11791136-home-page-on-dashboard.md",
+   "title": "Home Page on Dashboard",
+   "url": "https://help.cluing.io/en/articles/11791136-home-page-on-dashboard",
+   "bytes": 1196
+  },
+  {
+   "source": "articles/11791164-how-to-access-the-dashboard.md",
+   "note": "articles/11791164-how-to-access-the-dashboard.md",
+   "title": "How to Access the Dashboard?",
+   "url": "https://help.cluing.io/en/articles/11791164-how-to-access-the-dashboard",
+   "bytes": 761
+  },
+  {
+   "source": "articles/11791174-how-to-switch-between-workspaces.md",
+   "note": "articles/11791174-how-to-switch-between-workspaces.md",
+   "title": "How to switch between workspaces?",
+   "url": "https://help.cluing.io/en/articles/11791174-how-to-switch-between-workspaces",
+   "bytes": 1569
+  },
+  {
+   "source": "articles/11791209-who-can-manage-workspace-settings.md",
+   "note": "articles/11791209-who-can-manage-workspace-settings.md",
+   "title": "Who can manage workspace settings?",
+   "url": "https://help.cluing.io/en/articles/11791209-who-can-manage-workspace-settings",
+   "bytes": 772
+  },
+  {
+   "source": "articles/11791222-sign-in-options.md",
+   "note": "articles/11791222-sign-in-options.md",
+   "title": "Sign In Options",
+   "url": "https://help.cluing.io/en/articles/11791222-sign-in-options",
+   "bytes": 814
+  },
+  {
+   "source": "articles/11791244-how-to-delete-my-account.md",
+   "note": "articles/11791244-how-to-delete-my-account.md",
+   "title": "How to delete my account?",
+   "url": "https://help.cluing.io/en/articles/11791244-how-to-delete-my-account",
+   "bytes": 984
+  },
+  {
+   "source": "articles/11791347-user-settings-name-password.md",
+   "note": "articles/11791347-user-settings-name-password.md",
+   "title": "User Settings: Name, Password",
+   "url": "https://help.cluing.io/en/articles/11791347-user-settings-name-password",
+   "bytes": 970
+  },
+  {
+   "source": "articles/11791407-how-to-add-people-to-a-workspace.md",
+   "note": "articles/11791407-how-to-add-people-to-a-workspace.md",
+   "title": "How to Add People to a Workspace?",
+   "url": "https://help.cluing.io/en/articles/11791407-how-to-add-people-to-a-workspace",
+   "bytes": 1165
+  },
+  {
+   "source": "articles/11791442-how-to-remove-workspace-members.md",
+   "note": "articles/11791442-how-to-remove-workspace-members.md",
+   "title": "How to remove workspace members?",
+   "url": "https://help.cluing.io/en/articles/11791442-how-to-remove-workspace-members",
+   "bytes": 994
+  },
+  {
+   "source": "articles/11791468-what-subscription-plans-are-available-in-cluing.md",
+   "note": "articles/11791468-what-subscription-plans-are-available-in-cluing.md",
+   "title": "What subscription plans are available in Cluing?",
+   "url": "https://help.cluing.io/en/articles/11791468-what-subscription-plans-are-available-in-cluing",
+   "bytes": 2368
+  },
+  {
+   "source": "articles/11791507-how-to-upgrade-a-cluing-account.md",
+   "note": "articles/11791507-how-to-upgrade-a-cluing-account.md",
+   "title": "How to upgrade a Cluing account?",
+   "url": "https://help.cluing.io/en/articles/11791507-how-to-upgrade-a-cluing-account",
+   "bytes": 968
+  },
+  {
+   "source": "articles/11791945-how-to-cancel-a-plan-in-cluing.md",
+   "note": "articles/11791945-how-to-cancel-a-plan-in-cluing.md",
+   "title": "How to cancel a plan in Cluing?",
+   "url": "https://help.cluing.io/en/articles/11791945-how-to-cancel-a-plan-in-cluing",
+   "bytes": 1537
+  },
+  {
+   "source": "articles/11791995-team-version.md",
+   "note": "articles/11791995-team-version.md",
+   "title": "Team Version",
+   "url": "https://help.cluing.io/en/articles/11791995-team-version",
+   "bytes": 1628
+  },
+  {
+   "source": "articles/11792004-permission-levels-explained.md",
+   "note": "articles/11792004-permission-levels-explained.md",
+   "title": "Permission Levels Explained",
+   "url": "https://help.cluing.io/en/articles/11792004-permission-levels-explained",
+   "bytes": 1145
+  },
+  {
+   "source": "articles/11792079-sharing-options.md",
+   "note": "articles/11792079-sharing-options.md",
+   "title": "Sharing Options",
+   "url": "https://help.cluing.io/en/articles/11792079-sharing-options",
+   "bytes": 2068
+  },
+  {
+   "source": "articles/11792146-sharing-topics-with-clu-ing-links.md",
+   "note": "articles/11792146-sharing-topics-with-clu-ing-links.md",
+   "title": "Sharing Topics with clu.ing Links",
+   "url": "https://help.cluing.io/en/articles/11792146-sharing-topics-with-clu-ing-links",
+   "bytes": 2579
+  },
+  {
+   "source": "articles/11792225-add-people-to-a-topic-via-email.md",
+   "note": "articles/11792225-add-people-to-a-topic-via-email.md",
+   "title": "Add People to a Topic via Email",
+   "url": "https://help.cluing.io/en/articles/11792225-add-people-to-a-topic-via-email",
+   "bytes": 1826
+  },
+  {
+   "source": "articles/11792585-how-to-add-users-to-clusters.md",
+   "note": "articles/11792585-how-to-add-users-to-clusters.md",
+   "title": "How to add users to Clusters?",
+   "url": "https://help.cluing.io/en/articles/11792585-how-to-add-users-to-clusters",
+   "bytes": 1849
+  },
+  {
+   "source": "articles/11792663-create-a-topic-inside-a-cluster-from-the-extension.md",
+   "note": "articles/11792663-create-a-topic-inside-a-cluster-from-the-extension.md",
+   "title": "Create a Topic Inside a Cluster from the Extension",
+   "url": "https://help.cluing.io/en/articles/11792663-create-a-topic-inside-a-cluster-from-the-extension",
+   "bytes": 1467
+  },
+  {
+   "source": "articles/11792863-topics-and-clusters-shared-with-you.md",
+   "note": "articles/11792863-topics-and-clusters-shared-with-you.md",
+   "title": "Topics and Clusters Shared With You",
+   "url": "https://help.cluing.io/en/articles/11792863-topics-and-clusters-shared-with-you",
+   "bytes": 2083
+  },
+  {
+   "source": "articles/11793086-leaving-shared-topic.md",
+   "note": "articles/11793086-leaving-shared-topic.md",
+   "title": "Leaving Shared Topic",
+   "url": "https://help.cluing.io/en/articles/11793086-leaving-shared-topic",
+   "bytes": 1149
+  },
+  {
+   "source": "articles/11793152-leaving-shared-cluster.md",
+   "note": "articles/11793152-leaving-shared-cluster.md",
+   "title": "Leaving Shared Cluster",
+   "url": "https://help.cluing.io/en/articles/11793152-leaving-shared-cluster",
+   "bytes": 1329
+  },
+  {
+   "source": "articles/11793205-do-clusters-have-shareable-links.md",
+   "note": "articles/11793205-do-clusters-have-shareable-links.md",
+   "title": "Do Clusters have shareable links?",
+   "url": "https://help.cluing.io/en/articles/11793205-do-clusters-have-shareable-links",
+   "bytes": 862
+  },
+  {
+   "source": "articles/11793280-customize-the-look-of-shared-topics.md",
+   "note": "articles/11793280-customize-the-look-of-shared-topics.md",
+   "title": "Customize the Look of Shared Topics",
+   "url": "https://help.cluing.io/en/articles/11793280-customize-the-look-of-shared-topics",
+   "bytes": 1422
+  },
+  {
+   "source": "articles/11793611-how-to-mention-collaborators-in-comments.md",
+   "note": "articles/11793611-how-to-mention-collaborators-in-comments.md",
+   "title": "How to Mention Collaborators in Comments?",
+   "url": "https://help.cluing.io/en/articles/11793611-how-to-mention-collaborators-in-comments",
+   "bytes": 2483
+  },
+  {
+   "source": "articles/11793688-restricted-clusters.md",
+   "note": "articles/11793688-restricted-clusters.md",
+   "title": "Restricted Clusters",
+   "url": "https://help.cluing.io/en/articles/11793688-restricted-clusters",
+   "bytes": 891
+  },
+  {
+   "source": "articles/11793696-mention-collaborators-from-slack.md",
+   "note": "articles/11793696-mention-collaborators-from-slack.md",
+   "title": "Mention Collaborators from Slack",
+   "url": "https://help.cluing.io/en/articles/11793696-mention-collaborators-from-slack",
+   "bytes": 1179
+  },
+  {
+   "source": "articles/11793739-mention-external-users-by-email.md",
+   "note": "articles/11793739-mention-external-users-by-email.md",
+   "title": "Mention External Users By Email",
+   "url": "https://help.cluing.io/en/articles/11793739-mention-external-users-by-email",
+   "bytes": 2157
+  },
+  {
+   "source": "articles/11793832-who-can-be-mentioned-in-the-comments.md",
+   "note": "articles/11793832-who-can-be-mentioned-in-the-comments.md",
+   "title": "Who can be mentioned in the comments?",
+   "url": "https://help.cluing.io/en/articles/11793832-who-can-be-mentioned-in-the-comments",
+   "bytes": 1045
+  },
+  {
+   "source": "articles/11793895-how-to-search-through-the-app.md",
+   "note": "articles/11793895-how-to-search-through-the-app.md",
+   "title": "How to Search Through the App?",
+   "url": "https://help.cluing.io/en/articles/11793895-how-to-search-through-the-app",
+   "bytes": 1565
+  },
+  {
+   "source": "articles/11822226-extension-settings-panel.md",
+   "note": "articles/11822226-extension-settings-panel.md",
+   "title": "Extension Settings Panel",
+   "url": "https://help.cluing.io/en/articles/11822226-extension-settings-panel",
+   "bytes": 2496
+  },
+  {
+   "source": "articles/11822407-adjusting-extension-preferences.md",
+   "note": "articles/11822407-adjusting-extension-preferences.md",
+   "title": "Adjusting Extension Preferences",
+   "url": "https://help.cluing.io/en/articles/11822407-adjusting-extension-preferences",
+   "bytes": 4237
+  },
+  {
+   "source": "articles/11822602-how-is-my-data-stored-and-protected-in-cluing.md",
+   "note": "articles/11822602-how-is-my-data-stored-and-protected-in-cluing.md",
+   "title": "How is my data stored and protected in Cluing?",
+   "url": "https://help.cluing.io/en/articles/11822602-how-is-my-data-stored-and-protected-in-cluing",
+   "bytes": 1123
+  },
+  {
+   "source": "articles/11822609-what-happens-to-my-data-if-i-delete-my-account.md",
+   "note": "articles/11822609-what-happens-to-my-data-if-i-delete-my-account.md",
+   "title": "What happens to my data if I delete my account?",
+   "url": "https://help.cluing.io/en/articles/11822609-what-happens-to-my-data-if-i-delete-my-account",
+   "bytes": 1017
+  },
+  {
+   "source": "articles/11822619-do-you-have-a-privacy-policy-and-terms-of-service.md",
+   "note": "articles/11822619-do-you-have-a-privacy-policy-and-terms-of-service.md",
+   "title": "Do you have a privacy policy and terms of service?",
+   "url": "https://help.cluing.io/en/articles/11822619-do-you-have-a-privacy-policy-and-terms-of-service",
+   "bytes": 717
+  },
+  {
+   "source": "articles/11822650-is-cluing-a-good-fit-for-me.md",
+   "note": "articles/11822650-is-cluing-a-good-fit-for-me.md",
+   "title": "Is Cluing a good fit for me?",
+   "url": "https://help.cluing.io/en/articles/11822650-is-cluing-a-good-fit-for-me",
+   "bytes": 1869
+  },
+  {
+   "source": "articles/11822656-what-are-the-benefits-of-cluing.md",
+   "note": "articles/11822656-what-are-the-benefits-of-cluing.md",
+   "title": "What are the benefits of Cluing?",
+   "url": "https://help.cluing.io/en/articles/11822656-what-are-the-benefits-of-cluing",
+   "bytes": 1409
+  },
+  {
+   "source": "articles/11822670-how-to-hide-the-highlighter-button.md",
+   "note": "articles/11822670-how-to-hide-the-highlighter-button.md",
+   "title": "How to hide the highlighter button?",
+   "url": "https://help.cluing.io/en/articles/11822670-how-to-hide-the-highlighter-button",
+   "bytes": 1090
+  },
+  {
+   "source": "articles/11822695-who-can-access-the-data-i-save-with-cluing.md",
+   "note": "articles/11822695-who-can-access-the-data-i-save-with-cluing.md",
+   "title": "Who can access the Data I save with Cluing?",
+   "url": "https://help.cluing.io/en/articles/11822695-who-can-access-the-data-i-save-with-cluing",
+   "bytes": 1480
+  },
+  {
+   "source": "articles/11822710-which-browsers-does-cluing-support.md",
+   "note": "articles/11822710-which-browsers-does-cluing-support.md",
+   "title": "Which browsers does Cluing support?",
+   "url": "https://help.cluing.io/en/articles/11822710-which-browsers-does-cluing-support",
+   "bytes": 1439
+  },
+  {
+   "source": "articles/11822721-how-to-get-the-cluing-mobile-extension.md",
+   "note": "articles/11822721-how-to-get-the-cluing-mobile-extension.md",
+   "title": "How to get the Cluing mobile extension?",
+   "url": "https://help.cluing.io/en/articles/11822721-how-to-get-the-cluing-mobile-extension",
+   "bytes": 2032
+  },
+  {
+   "source": "articles/11822822-create-snippet-from-link.md",
+   "note": "articles/11822822-create-snippet-from-link.md",
+   "title": "Create Snippet from Link",
+   "url": "https://help.cluing.io/en/articles/11822822-create-snippet-from-link",
+   "bytes": 1148
+  },
+  {
+   "source": "articles/11822856-what-s-a-clu-ing-link.md",
+   "note": "articles/11822856-what-s-a-clu-ing-link.md",
+   "title": "What’s a clu.ing link?",
+   "url": "https://help.cluing.io/en/articles/11822856-what-s-a-clu-ing-link",
+   "bytes": 1048
+  },
+  {
+   "source": "articles/11823211-show-all-highlights-reverse-locate.md",
+   "note": "articles/11823211-show-all-highlights-reverse-locate.md",
+   "title": "Show All Highlights & Reverse Locate",
+   "url": "https://help.cluing.io/en/articles/11823211-show-all-highlights-reverse-locate",
+   "bytes": 1950
+  },
+  {
+   "source": "articles/11830731-how-to-remove-a-collaborator-from-a-cluster.md",
+   "note": "articles/11830731-how-to-remove-a-collaborator-from-a-cluster.md",
+   "title": "How to Remove a Collaborator from a Cluster?",
+   "url": "https://help.cluing.io/en/articles/11830731-how-to-remove-a-collaborator-from-a-cluster",
+   "bytes": 1188
+  },
+  {
+   "source": "articles/11830845-mention-only.md",
+   "note": "articles/11830845-mention-only.md",
+   "title": "Mention Only",
+   "url": "https://help.cluing.io/en/articles/11830845-mention-only",
+   "bytes": 1273
+  },
+  {
+   "source": "articles/11839482-how-to-install-the-cluing-extension-and-create-your-first-topic.md",
+   "note": "articles/11839482-how-to-install-the-cluing-extension-and-create-your-first-topic.md",
+   "title": "How to install the Cluing extension and create your first topic",
+   "url": "https://help.cluing.io/en/articles/11839482-how-to-install-the-cluing-extension-and-create-your-first-topic",
+   "bytes": 4290
+  },
+  {
+   "source": "articles/11839924-mobile-extension-on-microsoft-edge.md",
+   "note": "articles/11839924-mobile-extension-on-microsoft-edge.md",
+   "title": "Mobile Extension on Microsoft Edge",
+   "url": "https://help.cluing.io/en/articles/11839924-mobile-extension-on-microsoft-edge",
+   "bytes": 2243
+  },
+  {
+   "source": "articles/11928105-highlighter-button.md",
+   "note": "articles/11928105-highlighter-button.md",
+   "title": "Highlighter Button",
+   "url": "https://help.cluing.io/en/articles/11928105-highlighter-button",
+   "bytes": 2420
+  },
+  {
+   "source": "articles/11928416-highlight-colors-on-webpages.md",
+   "note": "articles/11928416-highlight-colors-on-webpages.md",
+   "title": "Highlight Colors on Webpages",
+   "url": "https://help.cluing.io/en/articles/11928416-highlight-colors-on-webpages",
+   "bytes": 1233
+  },
+  {
+   "source": "articles/11959751-what-different-roles-can-be-assigned-to-users.md",
+   "note": "articles/11959751-what-different-roles-can-be-assigned-to-users.md",
+   "title": "What different roles can be assigned to users?",
+   "url": "https://help.cluing.io/en/articles/11959751-what-different-roles-can-be-assigned-to-users",
+   "bytes": 1646
+  },
+  {
+   "source": "articles/11992349-how-to-install-cluing-on-your-phone.md",
+   "note": "articles/11992349-how-to-install-cluing-on-your-phone.md",
+   "title": "How to Install Cluing on Your Phone",
+   "url": "https://help.cluing.io/en/articles/11992349-how-to-install-cluing-on-your-phone",
+   "bytes": 1118
+  },
+  {
+   "source": "articles/12130167-adding-icons-to-topics-and-clusters.md",
+   "note": "articles/12130167-adding-icons-to-topics-and-clusters.md",
+   "title": "Adding Icons to Topics and Clusters ✨",
+   "url": "https://help.cluing.io/en/articles/12130167-adding-icons-to-topics-and-clusters",
+   "bytes": 1276
+  },
+  {
+   "source": "articles/12181522-duplicate-to.md",
+   "note": "articles/12181522-duplicate-to.md",
+   "title": "Duplicate To",
+   "url": "https://help.cluing.io/en/articles/12181522-duplicate-to",
+   "bytes": 2220
+  },
+  {
+   "source": "articles/12181679-move-to.md",
+   "note": "articles/12181679-move-to.md",
+   "title": "Move To",
+   "url": "https://help.cluing.io/en/articles/12181679-move-to",
+   "bytes": 1452
+  },
+  {
+   "source": "articles/12267724-cluing-reader.md",
+   "note": "articles/12267724-cluing-reader.md",
+   "title": "Cluing Reader 📖",
+   "url": "https://help.cluing.io/en/articles/12267724-cluing-reader",
+   "bytes": 2051
+  },
+  {
+   "source": "articles/12460051-how-to-add-pdf-annotations-on-mobile.md",
+   "note": "articles/12460051-how-to-add-pdf-annotations-on-mobile.md",
+   "title": "How to add PDF annotations on Mobile?",
+   "url": "https://help.cluing.io/en/articles/12460051-how-to-add-pdf-annotations-on-mobile",
+   "bytes": 1940
+  },
+  {
+   "source": "articles/12606209-ai-chat-in-cluing.md",
+   "note": "articles/12606209-ai-chat-in-cluing.md",
+   "title": "AI Chat in Cluing",
+   "url": "https://help.cluing.io/en/articles/12606209-ai-chat-in-cluing",
+   "bytes": 3663
+  },
+  {
+   "source": "articles/12621034-snippets-saving-preference.md",
+   "note": "articles/12621034-snippets-saving-preference.md",
+   "title": "Snippets Saving Preference",
+   "url": "https://help.cluing.io/en/articles/12621034-snippets-saving-preference",
+   "bytes": 1290
+  },
+  {
+   "source": "articles/12630200-most-highlighted.md",
+   "note": "articles/12630200-most-highlighted.md",
+   "title": "Most Highlighted",
+   "url": "https://help.cluing.io/en/articles/12630200-most-highlighted",
+   "bytes": 1049
+  },
+  {
+   "source": "articles/12630476-add-cards-to-the-bottom.md",
+   "note": "articles/12630476-add-cards-to-the-bottom.md",
+   "title": "Add Cards to the Bottom",
+   "url": "https://help.cluing.io/en/articles/12630476-add-cards-to-the-bottom",
+   "bytes": 1367
+  },
+  {
+   "source": "articles/12630550-keep-extension-open-on-every-page.md",
+   "note": "articles/12630550-keep-extension-open-on-every-page.md",
+   "title": "Keep Extension Open on Every Page",
+   "url": "https://help.cluing.io/en/articles/12630550-keep-extension-open-on-every-page",
+   "bytes": 1241
+  },
+  {
+   "source": "articles/12630603-open-panel-on-the-right.md",
+   "note": "articles/12630603-open-panel-on-the-right.md",
+   "title": "Open Panel on the Right",
+   "url": "https://help.cluing.io/en/articles/12630603-open-panel-on-the-right",
+   "bytes": 1179
+  },
+  {
+   "source": "articles/12638164-open-on-startup.md",
+   "note": "articles/12638164-open-on-startup.md",
+   "title": "Open on Startup",
+   "url": "https://help.cluing.io/en/articles/12638164-open-on-startup",
+   "bytes": 3073
+  },
+  {
+   "source": "articles/12638534-how-to-access-the-dashboard.md",
+   "note": "articles/12638534-how-to-access-the-dashboard.md",
+   "title": "How to Access the Dashboard?",
+   "url": "https://help.cluing.io/en/articles/12638534-how-to-access-the-dashboard",
+   "bytes": 793
+  },
+  {
+   "source": "articles/12638578-save-linkedin-posts-as-snippets.md",
+   "note": "articles/12638578-save-linkedin-posts-as-snippets.md",
+   "title": "Save LinkedIn Posts as Snippets",
+   "url": "https://help.cluing.io/en/articles/12638578-save-linkedin-posts-as-snippets",
+   "bytes": 1825
+  },
+  {
+   "source": "articles/12638616-save-reddit-posts-and-comments-as-snippets.md",
+   "note": "articles/12638616-save-reddit-posts-and-comments-as-snippets.md",
+   "title": "Save Reddit Posts and Comments as Snippets",
+   "url": "https://help.cluing.io/en/articles/12638616-save-reddit-posts-and-comments-as-snippets",
+   "bytes": 1313
+  },
+  {
+   "source": "articles/12638648-save-x-twitter-posts-as-snippets.md",
+   "note": "articles/12638648-save-x-twitter-posts-as-snippets.md",
+   "title": "Save X/Twitter Posts as Snippets",
+   "url": "https://help.cluing.io/en/articles/12638648-save-x-twitter-posts-as-snippets",
+   "bytes": 1823
+  },
+  {
+   "source": "articles/12638744-save-quora-posts-as-snippets.md",
+   "note": "articles/12638744-save-quora-posts-as-snippets.md",
+   "title": "Save Quora Posts as Snippets",
+   "url": "https://help.cluing.io/en/articles/12638744-save-quora-posts-as-snippets",
+   "bytes": 932
+  },
+  {
+   "source": "articles/12657586-how-to-add-annotations-to-documents-on-desktop.md",
+   "note": "articles/12657586-how-to-add-annotations-to-documents-on-desktop.md",
+   "title": "How to Add Annotations to Documents on Desktop",
+   "url": "https://help.cluing.io/en/articles/12657586-how-to-add-annotations-to-documents-on-desktop",
+   "bytes": 1623
+  },
+  {
+   "source": "articles/12701026-ai-canvas.md",
+   "note": "articles/12701026-ai-canvas.md",
+   "title": "AI Canvas",
+   "url": "https://help.cluing.io/en/articles/12701026-ai-canvas",
+   "bytes": 2896
+  },
+  {
+   "source": "articles/12701607-how-to-manage-a-cluing-workspace.md",
+   "note": "articles/12701607-how-to-manage-a-cluing-workspace.md",
+   "title": "How to manage a Cluing Workspace?",
+   "url": "https://help.cluing.io/en/articles/12701607-how-to-manage-a-cluing-workspace",
+   "bytes": 2144
+  },
+  {
+   "source": "articles/12701721-profile-picture.md",
+   "note": "articles/12701721-profile-picture.md",
+   "title": "Profile Picture",
+   "url": "https://help.cluing.io/en/articles/12701721-profile-picture",
+   "bytes": 1829
+  },
+  {
+   "source": "articles/12701821-knowledge-triggers.md",
+   "note": "articles/12701821-knowledge-triggers.md",
+   "title": "Knowledge Triggers",
+   "url": "https://help.cluing.io/en/articles/12701821-knowledge-triggers",
+   "bytes": 1608
+  },
+  {
+   "source": "articles/12929612-what-languages-does-cluing-support.md",
+   "note": "articles/12929612-what-languages-does-cluing-support.md",
+   "title": "What languages does Cluing support?",
+   "url": "https://help.cluing.io/en/articles/12929612-what-languages-does-cluing-support",
+   "bytes": 775
+  },
+  {
+   "source": "articles/12929767-what-is-your-support-email.md",
+   "note": "articles/12929767-what-is-your-support-email.md",
+   "title": "What is your support email?",
+   "url": "https://help.cluing.io/en/articles/12929767-what-is-your-support-email",
+   "bytes": 1143
+  },
+  {
+   "source": "articles/12929834-can-i-download-the-original-document-with-my-highlights-included.md",
+   "note": "articles/12929834-can-i-download-the-original-document-with-my-highlights-included.md",
+   "title": "Can I download the original Document with my highlights included?",
+   "url": "https://help.cluing.io/en/articles/12929834-can-i-download-the-original-document-with-my-highlights-included",
+   "bytes": 983
+  },
+  {
+   "source": "articles/12930132-where-can-i-follow-cluing-on-social-media.md",
+   "note": "articles/12930132-where-can-i-follow-cluing-on-social-media.md",
+   "title": "Where can I follow Cluing on social media?",
+   "url": "https://help.cluing.io/en/articles/12930132-where-can-i-follow-cluing-on-social-media",
+   "bytes": 1279
+  },
+  {
+   "source": "articles/12942523-how-can-i-share-my-snippet-with-someone.md",
+   "note": "articles/12942523-how-can-i-share-my-snippet-with-someone.md",
+   "title": "How can I share my snippet with someone?",
+   "url": "https://help.cluing.io/en/articles/12942523-how-can-i-share-my-snippet-with-someone",
+   "bytes": 2158
+  },
+  {
+   "source": "articles/12944235-what-should-i-do-if-i-forgot-my-password.md",
+   "note": "articles/12944235-what-should-i-do-if-i-forgot-my-password.md",
+   "title": "What should I do if I forgot my password?",
+   "url": "https://help.cluing.io/en/articles/12944235-what-should-i-do-if-i-forgot-my-password",
+   "bytes": 919
+  },
+  {
+   "source": "articles/13003474-research-copilot.md",
+   "note": "articles/13003474-research-copilot.md",
+   "title": "Research Copilot",
+   "url": "https://help.cluing.io/en/articles/13003474-research-copilot",
+   "bytes": 1587
+  },
+  {
+   "source": "articles/13052623-notifications.md",
+   "note": "articles/13052623-notifications.md",
+   "title": "Notifications",
+   "url": "https://help.cluing.io/en/articles/13052623-notifications",
+   "bytes": 2070
+  },
+  {
+   "source": "articles/13159321-ai-powered-blog-writing-and-research.md",
+   "note": "articles/13159321-ai-powered-blog-writing-and-research.md",
+   "title": "AI-Powered Blog Writing and Research",
+   "url": "https://help.cluing.io/en/articles/13159321-ai-powered-blog-writing-and-research",
+   "bytes": 9281
+  },
+  {
+   "source": "articles/13160189-generate-linkedin-posts-from-your-saved-insights.md",
+   "note": "articles/13160189-generate-linkedin-posts-from-your-saved-insights.md",
+   "title": "Generate LinkedIn Posts from Your Saved Insights",
+   "url": "https://help.cluing.io/en/articles/13160189-generate-linkedin-posts-from-your-saved-insights",
+   "bytes": 4576
+  },
+  {
+   "source": "articles/13163594-snippet-authors.md",
+   "note": "articles/13163594-snippet-authors.md",
+   "title": "Snippet Authors",
+   "url": "https://help.cluing.io/en/articles/13163594-snippet-authors",
+   "bytes": 2437
+  },
+  {
+   "source": "articles/13166743-build-marketing-strategy-grounded-in-your-own-data.md",
+   "note": "articles/13166743-build-marketing-strategy-grounded-in-your-own-data.md",
+   "title": "Build Marketing Strategy Grounded in Your Own Data",
+   "url": "https://help.cluing.io/en/articles/13166743-build-marketing-strategy-grounded-in-your-own-data",
+   "bytes": 6490
+  },
+  {
+   "source": "articles/13169408-how-to-add-ideas-as-snippets.md",
+   "note": "articles/13169408-how-to-add-ideas-as-snippets.md",
+   "title": "How to add Ideas as Snippets?",
+   "url": "https://help.cluing.io/en/articles/13169408-how-to-add-ideas-as-snippets",
+   "bytes": 2891
+  },
+  {
+   "source": "articles/13177844-viral-youtube-script-made-easy.md",
+   "note": "articles/13177844-viral-youtube-script-made-easy.md",
+   "title": "Viral YouTube Script Made Easy",
+   "url": "https://help.cluing.io/en/articles/13177844-viral-youtube-script-made-easy",
+   "bytes": 6216
+  },
+  {
+   "source": "articles/13390501-edge-mobile-extension.md",
+   "note": "articles/13390501-edge-mobile-extension.md",
+   "title": "Edge Mobile Extension",
+   "url": "https://help.cluing.io/en/articles/13390501-edge-mobile-extension",
+   "bytes": 2307
+  },
+  {
+   "source": "articles/13390541-how-to-add-webpage-annotations-on-mobile.md",
+   "note": "articles/13390541-how-to-add-webpage-annotations-on-mobile.md",
+   "title": "How to add webpage annotations on Mobile?",
+   "url": "https://help.cluing.io/en/articles/13390541-how-to-add-webpage-annotations-on-mobile",
+   "bytes": 2559
+  },
+  {
+   "source": "articles/13429849-how-to-set-up-mail-forwarding-to-cluing.md",
+   "note": "articles/13429849-how-to-set-up-mail-forwarding-to-cluing.md",
+   "title": "How to set up mail forwarding to Cluing",
+   "url": "https://help.cluing.io/en/articles/13429849-how-to-set-up-mail-forwarding-to-cluing",
+   "bytes": 1946
+  },
+  {
+   "source": "articles/13532700-direct-links-for-snippets-and-comments.md",
+   "note": "articles/13532700-direct-links-for-snippets-and-comments.md",
+   "title": "Direct links for Snippets and Comments",
+   "url": "https://help.cluing.io/en/articles/13532700-direct-links-for-snippets-and-comments",
+   "bytes": 1221
+  },
+  {
+   "source": "articles/13533011-the-key-menu.md",
+   "note": "articles/13533011-the-key-menu.md",
+   "title": "The \"/\" key menu",
+   "url": "https://help.cluing.io/en/articles/13533011-the-key-menu",
+   "bytes": 1589
+  },
+  {
+   "source": "articles/13833323-cluing-mobile-apps.md",
+   "note": "articles/13833323-cluing-mobile-apps.md",
+   "title": "Cluing Mobile Apps",
+   "url": "https://help.cluing.io/en/articles/13833323-cluing-mobile-apps",
+   "bytes": 1227
+  },
+  {
+   "source": "articles/14019248-save-snippet-from-ai-chat.md",
+   "note": "articles/14019248-save-snippet-from-ai-chat.md",
+   "title": "Save snippet from AI Chat",
+   "url": "https://help.cluing.io/en/articles/14019248-save-snippet-from-ai-chat",
+   "bytes": 1237
+  },
+  {
+   "source": "articles/14019527-copy-ai-chat-messages.md",
+   "note": "articles/14019527-copy-ai-chat-messages.md",
+   "title": "Copy AI Chat Messages",
+   "url": "https://help.cluing.io/en/articles/14019527-copy-ai-chat-messages",
+   "bytes": 1013
+  },
+  {
+   "source": "articles/14020043-cluster-visibility-team-workspace.md",
+   "note": "articles/14020043-cluster-visibility-team-workspace.md",
+   "title": "Cluster Visibility (Team Workspace)",
+   "url": "https://help.cluing.io/en/articles/14020043-cluster-visibility-team-workspace",
+   "bytes": 1647
+  },
+  {
+   "source": "articles/14058347-forward-emails-into-your-knowledge-base.md",
+   "note": "articles/14058347-forward-emails-into-your-knowledge-base.md",
+   "title": "Forward Emails Into Your Knowledge Base",
+   "url": "https://help.cluing.io/en/articles/14058347-forward-emails-into-your-knowledge-base",
+   "bytes": 2638
+  },
+  {
+   "source": "articles/14058819-organize-your-newsletters-with-cluing.md",
+   "note": "articles/14058819-organize-your-newsletters-with-cluing.md",
+   "title": "Organize Your Newsletters with Cluing",
+   "url": "https://help.cluing.io/en/articles/14058819-organize-your-newsletters-with-cluing",
+   "bytes": 3059
+  },
+  {
+   "source": "articles/14211688-summarize-webpage.md",
+   "note": "articles/14211688-summarize-webpage.md",
+   "title": "Summarize Webpage",
+   "url": "https://help.cluing.io/en/articles/14211688-summarize-webpage",
+   "bytes": 1717
+  },
+  {
+   "source": "articles/14211705-tiktok-integration.md",
+   "note": "articles/14211705-tiktok-integration.md",
+   "title": "TikTok Integration",
+   "url": "https://help.cluing.io/en/articles/14211705-tiktok-integration",
+   "bytes": 1439
+  },
+  {
+   "source": "articles/14354712-custom-domain-and-email-address-setup-pro-team.md",
+   "note": "articles/14354712-custom-domain-and-email-address-setup-pro-team.md",
+   "title": "Custom Domain and Email Address Setup (Pro/Team)",
+   "url": "https://help.cluing.io/en/articles/14354712-custom-domain-and-email-address-setup-pro-team",
+   "bytes": 1824
+  },
+  {
+   "source": "articles/14498150-extract-knowledge-from-your-ai-chat.md",
+   "note": "articles/14498150-extract-knowledge-from-your-ai-chat.md",
+   "title": "Extract knowledge from your AI Chat",
+   "url": "https://help.cluing.io/en/articles/14498150-extract-knowledge-from-your-ai-chat",
+   "bytes": 1791
+  },
+  {
+   "source": "articles/14808810-inbox-snippet-suggestion.md",
+   "note": "articles/14808810-inbox-snippet-suggestion.md",
+   "title": "Inbox Snippet suggestion",
+   "url": "https://help.cluing.io/en/articles/14808810-inbox-snippet-suggestion",
+   "bytes": 1337
+  },
+  {
+   "source": "articles/15137659-organize-snippets-with-cluing-ai.md",
+   "note": "articles/15137659-organize-snippets-with-cluing-ai.md",
+   "title": "Organize Snippets with Cluing AI",
+   "url": "https://help.cluing.io/en/articles/15137659-organize-snippets-with-cluing-ai",
+   "bytes": 1947
+  },
+  {
+   "source": "articles/15178437-connecting-claude-to-cluing-via-mcp.md",
+   "note": "articles/15178437-connecting-claude-to-cluing-via-mcp.md",
+   "title": "Connecting Claude to Cluing via MCP",
+   "url": "https://help.cluing.io/en/articles/15178437-connecting-claude-to-cluing-via-mcp",
+   "bytes": 3360
+  },
+  {
+   "source": "articles/15190105-upload-images-in-ai-chat.md",
+   "note": "articles/15190105-upload-images-in-ai-chat.md",
+   "title": "Upload images in AI Chat",
+   "url": "https://help.cluing.io/en/articles/15190105-upload-images-in-ai-chat",
+   "bytes": 1290
+  },
+  {
+   "source": "articles/15190555-clickable-youtube-timestamps-in-comments.md",
+   "note": "articles/15190555-clickable-youtube-timestamps-in-comments.md",
+   "title": "Clickable YouTube Timestamps in Comments",
+   "url": "https://help.cluing.io/en/articles/15190555-clickable-youtube-timestamps-in-comments",
+   "bytes": 1760
+  },
+  {
+   "source": "articles/15190588-dark-mode-on-your-dashboard.md",
+   "note": "articles/15190588-dark-mode-on-your-dashboard.md",
+   "title": "Dark Mode on your Dashboard",
+   "url": "https://help.cluing.io/en/articles/15190588-dark-mode-on-your-dashboard",
+   "bytes": 1295
+  },
+  {
+   "source": "articles/15190722-dark-mode-in-the-extension.md",
+   "note": "articles/15190722-dark-mode-in-the-extension.md",
+   "title": "Dark Mode in the Extension",
+   "url": "https://help.cluing.io/en/articles/15190722-dark-mode-in-the-extension",
+   "bytes": 1078
+  },
+  {
+   "source": "articles/15190940-how-to-create-and-use-buckets.md",
+   "note": "articles/15190940-how-to-create-and-use-buckets.md",
+   "title": "How to create and use Buckets",
+   "url": "https://help.cluing.io/en/articles/15190940-how-to-create-and-use-buckets",
+   "bytes": 2213
+  },
+  {
+   "source": "articles/15191237-how-to-summarize-links-from-an-empty-topic.md",
+   "note": "articles/15191237-how-to-summarize-links-from-an-empty-topic.md",
+   "title": "How to Summarize Links from an Empty Topic",
+   "url": "https://help.cluing.io/en/articles/15191237-how-to-summarize-links-from-an-empty-topic",
+   "bytes": 1305
+  },
+  {
+   "source": "articles/15191356-self-organizing-workspace-through-ai-chat.md",
+   "note": "articles/15191356-self-organizing-workspace-through-ai-chat.md",
+   "title": "Self-Organizing Workspace through AI Chat",
+   "url": "https://help.cluing.io/en/articles/15191356-self-organizing-workspace-through-ai-chat",
+   "bytes": 1572
+  },
+  {
+   "source": "articles/15191401-explore-your-knowledge-graphs.md",
+   "note": "articles/15191401-explore-your-knowledge-graphs.md",
+   "title": "Explore Your Knowledge Graphs",
+   "url": "https://help.cluing.io/en/articles/15191401-explore-your-knowledge-graphs",
+   "bytes": 1636
+  },
+  {
+   "source": "articles/15191613-ai-credit-consumption.md",
+   "note": "articles/15191613-ai-credit-consumption.md",
+   "title": "AI Credit consumption",
+   "url": "https://help.cluing.io/en/articles/15191613-ai-credit-consumption",
+   "bytes": 1044
+  },
+  {
+   "source": "articles/15393382-is-the-free-plan-truly-free-forever.md",
+   "note": "articles/15393382-is-the-free-plan-truly-free-forever.md",
+   "title": "Is the free plan truly free forever?",
+   "url": "https://help.cluing.io/en/articles/15393382-is-the-free-plan-truly-free-forever",
+   "bytes": 681
+  },
+  {
+   "source": "articles/15393481-what-is-the-discount-for-paying-yearly.md",
+   "note": "articles/15393481-what-is-the-discount-for-paying-yearly.md",
+   "title": "What is the discount for paying yearly?",
+   "url": "https://help.cluing.io/en/articles/15393481-what-is-the-discount-for-paying-yearly",
+   "bytes": 669
+  },
+  {
+   "source": "articles/15442354-upload-documents-to-ai-chat.md",
+   "note": "articles/15442354-upload-documents-to-ai-chat.md",
+   "title": "Upload documents to AI Chat",
+   "url": "https://help.cluing.io/en/articles/15442354-upload-documents-to-ai-chat",
+   "bytes": 1880
+  },
+  {
+   "source": "articles/15442545-document-management-in-reader.md",
+   "note": "articles/15442545-document-management-in-reader.md",
+   "title": "Document management in Reader",
+   "url": "https://help.cluing.io/en/articles/15442545-document-management-in-reader",
+   "bytes": 1548
+  },
+  {
+   "source": "articles/15444365-mention-a-topic-in-ai-chat.md",
+   "note": "articles/15444365-mention-a-topic-in-ai-chat.md",
+   "title": "Mention a Topic in AI Chat",
+   "url": "https://help.cluing.io/en/articles/15444365-mention-a-topic-in-ai-chat",
+   "bytes": 2072
+  },
+  {
+   "source": "articles/15551899-cluing-ai-chat-models-vs-chat-agents.md",
+   "note": "articles/15551899-cluing-ai-chat-models-vs-chat-agents.md",
+   "title": "Cluing AI: Chat Models vs Chat Agents",
+   "url": "https://help.cluing.io/en/articles/15551899-cluing-ai-chat-models-vs-chat-agents",
+   "bytes": 1637
+  },
+  {
+   "source": "articles/15644219-export-options.md",
+   "note": "articles/15644219-export-options.md",
+   "title": "Export Options",
+   "url": "https://help.cluing.io/en/articles/15644219-export-options",
+   "bytes": 2893
+  },
+  {
+   "source": "articles/15645745-how-to-save-content-as-a-snippet-while-browsing-on-mobile.md",
+   "note": "articles/15645745-how-to-save-content-as-a-snippet-while-browsing-on-mobile.md",
+   "title": "How to Save Content as a Snippet While Browsing on Mobile",
+   "url": "https://help.cluing.io/en/articles/15645745-how-to-save-content-as-a-snippet-while-browsing-on-mobile",
+   "bytes": 1919
+  },
+  {
+   "source": "articles/15645950-everything-you-can-do-with-the-cluing-mobile-app.md",
+   "note": "articles/15645950-everything-you-can-do-with-the-cluing-mobile-app.md",
+   "title": "Everything You Can Do with the Cluing Mobile App",
+   "url": "https://help.cluing.io/en/articles/15645950-everything-you-can-do-with-the-cluing-mobile-app",
+   "bytes": 3320
+  },
+  {
+   "source": "articles/15646141-idea-snippets-take-notes-on-mobile.md",
+   "note": "articles/15646141-idea-snippets-take-notes-on-mobile.md",
+   "title": "Idea Snippets - Take Notes on Mobile",
+   "url": "https://help.cluing.io/en/articles/15646141-idea-snippets-take-notes-on-mobile",
+   "bytes": 2060
+  },
+  {
+   "source": "articles/15646368-how-to-use-ai-chat-on-mobile.md",
+   "note": "articles/15646368-how-to-use-ai-chat-on-mobile.md",
+   "title": "How to Use AI Chat on Mobile",
+   "url": "https://help.cluing.io/en/articles/15646368-how-to-use-ai-chat-on-mobile",
+   "bytes": 1835
+  },
+  {
+   "source": "articles/15646960-how-to-share-a-topic-on-mobile.md",
+   "note": "articles/15646960-how-to-share-a-topic-on-mobile.md",
+   "title": "How to Share a Topic on Mobile",
+   "url": "https://help.cluing.io/en/articles/15646960-how-to-share-a-topic-on-mobile",
+   "bytes": 1837
+  },
+  {
+   "source": "articles/15654106-save-tiktok-videos-to-cluing-on-mobile.md",
+   "note": "articles/15654106-save-tiktok-videos-to-cluing-on-mobile.md",
+   "title": "Save TikTok Videos to Cluing on Mobile",
+   "url": "https://help.cluing.io/en/articles/15654106-save-tiktok-videos-to-cluing-on-mobile",
+   "bytes": 1673
+  },
+  {
+   "source": "articles/15691055-is-cluing-mobile-app-free.md",
+   "note": "articles/15691055-is-cluing-mobile-app-free.md",
+   "title": "Is Cluing mobile app free?",
+   "url": "https://help.cluing.io/en/articles/15691055-is-cluing-mobile-app-free",
+   "bytes": 892
+  },
+  {
+   "source": "articles/15691099-the-mobile-app-is-crashing-or-not-working-properly-what-can-i-try.md",
+   "note": "articles/15691099-the-mobile-app-is-crashing-or-not-working-properly-what-can-i-try.md",
+   "title": "The mobile app is crashing or not working properly. What can I try?",
+   "url": "https://help.cluing.io/en/articles/15691099-the-mobile-app-is-crashing-or-not-working-properly-what-can-i-try",
+   "bytes": 912
+  },
+  {
+   "source": "articles/15800127-ai-agents-and-pro-ai-models-in-cluing-chat.md",
+   "note": "articles/15800127-ai-agents-and-pro-ai-models-in-cluing-chat.md",
+   "title": "AI Agents and Pro AI Models in Cluing Chat",
+   "url": "https://help.cluing.io/en/articles/15800127-ai-agents-and-pro-ai-models-in-cluing-chat",
+   "bytes": 3237
+  },
+  {
+   "source": "articles/15887363-creating-snippets-topics-with-ai.md",
+   "note": "articles/15887363-creating-snippets-topics-with-ai.md",
+   "title": "Creating Snippets & Topics with AI",
+   "url": "https://help.cluing.io/en/articles/15887363-creating-snippets-topics-with-ai",
+   "bytes": 2604
+  },
+  {
+   "source": "articles/15887367-summarize-any-link.md",
+   "note": "articles/15887367-summarize-any-link.md",
+   "title": "Summarize Any Link",
+   "url": "https://help.cluing.io/en/articles/15887367-summarize-any-link",
+   "bytes": 1578
+  },
+  {
+   "source": "articles/15887493-convert-any-snippet-to-an-idea.md",
+   "note": "articles/15887493-convert-any-snippet-to-an-idea.md",
+   "title": "Convert Any Snippet to an Idea",
+   "url": "https://help.cluing.io/en/articles/15887493-convert-any-snippet-to-an-idea",
+   "bytes": 967
+  },
+  {
+   "source": "articles/15898827-create-idea-snippet-from-extension.md",
+   "note": "articles/15898827-create-idea-snippet-from-extension.md",
+   "title": "Create Idea Snippet from Extension",
+   "url": "https://help.cluing.io/en/articles/15898827-create-idea-snippet-from-extension",
+   "bytes": 1061
+  },
+  {
+   "source": "articles/15921878-set-up-cluing-for-one-tap-saving-on-iphone.md",
+   "note": "articles/15921878-set-up-cluing-for-one-tap-saving-on-iphone.md",
+   "title": "Set Up Cluing for One-Tap Saving on iPhone",
+   "url": "https://help.cluing.io/en/articles/15921878-set-up-cluing-for-one-tap-saving-on-iphone",
+   "bytes": 1269
+  },
+  {
+   "source": "articles/15922169-build-a-newsletter-knowledge-base-with-cluing.md",
+   "note": "articles/15922169-build-a-newsletter-knowledge-base-with-cluing.md",
+   "title": "Build a Newsletter Knowledge Base with Cluing 📚",
+   "url": "https://help.cluing.io/en/articles/15922169-build-a-newsletter-knowledge-base-with-cluing",
+   "bytes": 8911
+  },
+  {
+   "source": "articles/15943213-create-an-ai-powered-testimonial-system.md",
+   "note": "articles/15943213-create-an-ai-powered-testimonial-system.md",
+   "title": "Create an AI-Powered Testimonial System",
+   "url": "https://help.cluing.io/en/articles/15943213-create-an-ai-powered-testimonial-system",
+   "bytes": 7627
+  },
+  {
+   "source": "articles/15943262-how-to-save-substack-content-to-cluing.md",
+   "note": "articles/15943262-how-to-save-substack-content-to-cluing.md",
+   "title": "How to Save Substack Content to Cluing",
+   "url": "https://help.cluing.io/en/articles/15943262-how-to-save-substack-content-to-cluing",
+   "bytes": 3026
+  },
+  {
+   "source": "articles/15944347-who-built-cluing.md",
+   "note": "articles/15944347-who-built-cluing.md",
+   "title": "Who built Cluing?",
+   "url": "https://help.cluing.io/en/articles/15944347-who-built-cluing",
+   "bytes": 719
+  },
+  {
+   "source": "articles/15944551-does-cluing-offer-academia-discount.md",
+   "note": "articles/15944551-does-cluing-offer-academia-discount.md",
+   "title": "Does Cluing offer academia discount?",
+   "url": "https://help.cluing.io/en/articles/15944551-does-cluing-offer-academia-discount",
+   "bytes": 792
+  },
+  {
+   "source": "articles/15946640-does-cluing-have-an-affiliate-program.md",
+   "note": "articles/15946640-does-cluing-have-an-affiliate-program.md",
+   "title": "Does Cluing have an affiliate program?",
+   "url": "https://help.cluing.io/en/articles/15946640-does-cluing-have-an-affiliate-program",
+   "bytes": 679
+  },
+  {
+   "source": "articles/16019322-sharing-ai-chats.md",
+   "note": "articles/16019322-sharing-ai-chats.md",
+   "title": "Sharing AI Chats",
+   "url": "https://help.cluing.io/en/articles/16019322-sharing-ai-chats",
+   "bytes": 2027
+  },
+  {
+   "source": "articles/16019701-pin-ai-chat.md",
+   "note": "articles/16019701-pin-ai-chat.md",
+   "title": "Pin AI Chat",
+   "url": "https://help.cluing.io/en/articles/16019701-pin-ai-chat",
+   "bytes": 1115
+  },
+  {
+   "source": "articles/16034029-save-instagram-and-facebook-posts-to-cluing.md",
+   "note": "articles/16034029-save-instagram-and-facebook-posts-to-cluing.md",
+   "title": "Save Instagram and Facebook Posts to Cluing",
+   "url": "https://help.cluing.io/en/articles/16034029-save-instagram-and-facebook-posts-to-cluing",
+   "bytes": 1439
+  },
+  {
+   "source": "articles/16035178-get-answers-about-cluing-ask-ai-chat.md",
+   "note": "articles/16035178-get-answers-about-cluing-ask-ai-chat.md",
+   "title": "Get Answers About Cluing - Ask AI Chat",
+   "url": "https://help.cluing.io/en/articles/16035178-get-answers-about-cluing-ask-ai-chat",
+   "bytes": 1426
+  },
+  {
+   "source": "articles/16035198-get-legal-answers-with-ai-chat.md",
+   "note": "articles/16035198-get-legal-answers-with-ai-chat.md",
+   "title": "Get Legal Answers with AI Chat",
+   "url": "https://help.cluing.io/en/articles/16035198-get-legal-answers-with-ai-chat",
+   "bytes": 1367
+  },
+  {
+   "source": "articles/16040441-can-users-with-no-account-open-reader-snippets-in-cluing.md",
+   "note": "articles/16040441-can-users-with-no-account-open-reader-snippets-in-cluing.md",
+   "title": "Can users with no account open Reader snippets in Cluing?",
+   "url": "https://help.cluing.io/en/articles/16040441-can-users-with-no-account-open-reader-snippets-in-cluing",
+   "bytes": 2175
+  },
+  {
+   "source": "articles/16052816-file-upload-size-limit.md",
+   "note": "articles/16052816-file-upload-size-limit.md",
+   "title": "File upload size limit",
+   "url": "https://help.cluing.io/en/articles/16052816-file-upload-size-limit",
+   "bytes": 1147
+  },
+  {
+   "source": "articles/16053185-research-a-project-without-losing-your-sources-your-notes-or-your-mind.md",
+   "note": "articles/16053185-research-a-project-without-losing-your-sources-your-notes-or-your-mind.md",
+   "title": "Research a Project Without Losing Your Sources, Your Notes, or Your Mind",
+   "url": "https://help.cluing.io/en/articles/16053185-research-a-project-without-losing-your-sources-your-notes-or-your-mind",
+   "bytes": 6308
+  },
+  {
+   "source": "articles/16107912-saving-multiple-documents-to-the-topic.md",
+   "note": "articles/16107912-saving-multiple-documents-to-the-topic.md",
+   "title": "Saving multiple documents to the Topic",
+   "url": "https://help.cluing.io/en/articles/16107912-saving-multiple-documents-to-the-topic",
+   "bytes": 1630
+  },
+  {
+   "source": "articles/16108438-skills-in-cluing.md",
+   "note": "articles/16108438-skills-in-cluing.md",
+   "title": "Skills in Cluing",
+   "url": "https://help.cluing.io/en/articles/16108438-skills-in-cluing",
+   "bytes": 2296
+  },
+  {
+   "source": "articles/16108869-ai-created-documents.md",
+   "note": "articles/16108869-ai-created-documents.md",
+   "title": "AI-Created Documents",
+   "url": "https://help.cluing.io/en/articles/16108869-ai-created-documents",
+   "bytes": 1797
+  },
+  {
+   "source": "articles/16124454-install-cluing-mobile-app-on-your-phone.md",
+   "note": "articles/16124454-install-cluing-mobile-app-on-your-phone.md",
+   "title": "Install Cluing Mobile App on Your Phone",
+   "url": "https://help.cluing.io/en/articles/16124454-install-cluing-mobile-app-on-your-phone",
+   "bytes": 1298
+  },
+  {
+   "source": "articles/16125067-where-can-you-use-cluing.md",
+   "note": "articles/16125067-where-can-you-use-cluing.md",
+   "title": "Where Can You Use Cluing?",
+   "url": "https://help.cluing.io/en/articles/16125067-where-can-you-use-cluing",
+   "bytes": 3336
+  },
+  {
+   "source": "articles/16126703-markdown-documents.md",
+   "note": "articles/16126703-markdown-documents.md",
+   "title": "Markdown Documents",
+   "url": "https://help.cluing.io/en/articles/16126703-markdown-documents",
+   "bytes": 1707
+  },
+  {
+   "source": "articles/16146551-supported-file-types-in-reader.md",
+   "note": "articles/16146551-supported-file-types-in-reader.md",
+   "title": "Supported file types in Reader",
+   "url": "https://help.cluing.io/en/articles/16146551-supported-file-types-in-reader",
+   "bytes": 1040
+  },
+  {
+   "source": "articles/16146682-can-i-upload-more-than-one-file-at-a-time.md",
+   "note": "articles/16146682-can-i-upload-more-than-one-file-at-a-time.md",
+   "title": "Can I upload more than one file at a time?",
+   "url": "https://help.cluing.io/en/articles/16146682-can-i-upload-more-than-one-file-at-a-time",
+   "bytes": 902
+  },
+  {
+   "source": "articles/16188183-search-your-workspace-documents-with-ai-chat.md",
+   "note": "articles/16188183-search-your-workspace-documents-with-ai-chat.md",
+   "title": "Search Your Workspace Documents with AI Chat",
+   "url": "https://help.cluing.io/en/articles/16188183-search-your-workspace-documents-with-ai-chat",
+   "bytes": 1910
+  },
+  {
+   "source": "articles/16248401-how-cluing-skills-work.md",
+   "note": "articles/16248401-how-cluing-skills-work.md",
+   "title": "How Cluing Skills Work",
+   "url": "https://help.cluing.io/en/articles/16248401-how-cluing-skills-work",
+   "bytes": 1689
+  },
+  {
+   "source": "articles/16248494-how-to-write-good-skill-instructions.md",
+   "note": "articles/16248494-how-to-write-good-skill-instructions.md",
+   "title": "How to write good Skill Instructions",
+   "url": "https://help.cluing.io/en/articles/16248494-how-to-write-good-skill-instructions",
+   "bytes": 2353
+  },
+  {
+   "source": "articles/16390320-chat-agents-vs-hosted-agents.md",
+   "note": "articles/16390320-chat-agents-vs-hosted-agents.md",
+   "title": "Chat Agents vs Hosted Agents",
+   "url": "https://help.cluing.io/en/articles/16390320-chat-agents-vs-hosted-agents",
+   "bytes": 1809
+  },
+  {
+   "source": "articles/16390769-how-to-create-an-agent.md",
+   "note": "articles/16390769-how-to-create-an-agent.md",
+   "title": "How to create an Agent?",
+   "url": "https://help.cluing.io/en/articles/16390769-how-to-create-an-agent",
+   "bytes": 2720
+  },
+  {
+   "source": "articles/16393689-how-to-create-a-task.md",
+   "note": "articles/16393689-how-to-create-a-task.md",
+   "title": "How to create a Task",
+   "url": "https://help.cluing.io/en/articles/16393689-how-to-create-a-task",
+   "bytes": 1662
+  },
+  {
+   "source": "articles/16412242-how-to-write-good-task-descriptions.md",
+   "note": "articles/16412242-how-to-write-good-task-descriptions.md",
+   "title": "How to write good Task Descriptions",
+   "url": "https://help.cluing.io/en/articles/16412242-how-to-write-good-task-descriptions",
+   "bytes": 2633
+  },
+  {
+   "source": "articles/16413985-what-are-connectors.md",
+   "note": "articles/16413985-what-are-connectors.md",
+   "title": "What are Connectors?",
+   "url": "https://help.cluing.io/en/articles/16413985-what-are-connectors",
+   "bytes": 1372
+  },
+  {
+   "source": "articles/16414423-how-to-create-a-connector.md",
+   "note": "articles/16414423-how-to-create-a-connector.md",
+   "title": "How to create a Connector",
+   "url": "https://help.cluing.io/en/articles/16414423-how-to-create-a-connector",
+   "bytes": 2841
+  },
+  {
+   "source": "articles/16439748-sharing-an-agent-s-results.md",
+   "note": "articles/16439748-sharing-an-agent-s-results.md",
+   "title": "Sharing an Agent's results",
+   "url": "https://help.cluing.io/en/articles/16439748-sharing-an-agent-s-results",
+   "bytes": 3674
+  },
+  {
+   "source": "articles/16440049-publish-to-your-own-domain.md",
+   "note": "articles/16440049-publish-to-your-own-domain.md",
+   "title": "Publish to your own domain",
+   "url": "https://help.cluing.io/en/articles/16440049-publish-to-your-own-domain",
+   "bytes": 3023
+  },
+  {
+   "source": "articles/16440547-cluing-agents-and-youtube-get-reports-you-can-actually-read-and-act-on.md",
+   "note": "articles/16440547-cluing-agents-and-youtube-get-reports-you-can-actually-read-and-act-on.md",
+   "title": "Cluing Agents and YouTube - Get reports you can actually read and act on",
+   "url": "https://help.cluing.io/en/articles/16440547-cluing-agents-and-youtube-get-reports-you-can-actually-read-and-act-on",
+   "bytes": 10518
+  },
+  {
+   "source": "articles/16440874-connect-instagram-build-a-site-and-publish-it-all-in-cluing.md",
+   "note": "articles/16440874-connect-instagram-build-a-site-and-publish-it-all-in-cluing.md",
+   "title": "Connect Instagram, Build a Site, and Publish It - All in Cluing",
+   "url": "https://help.cluing.io/en/articles/16440874-connect-instagram-build-a-site-and-publish-it-all-in-cluing",
+   "bytes": 14210
+  },
+  {
+   "source": "articles/16440986-quickstart-your-first-hosted-agent.md",
+   "note": "articles/16440986-quickstart-your-first-hosted-agent.md",
+   "title": "Quickstart: your first Hosted Agent",
+   "url": "https://help.cluing.io/en/articles/16440986-quickstart-your-first-hosted-agent",
+   "bytes": 4512
+  },
+  {
+   "source": "articles/16441235-how-agents-skills-and-connectors-work-together.md",
+   "note": "articles/16441235-how-agents-skills-and-connectors-work-together.md",
+   "title": "How Agents, Skills and Connectors work together",
+   "url": "https://help.cluing.io/en/articles/16441235-how-agents-skills-and-connectors-work-together",
+   "bytes": 5100
+  },
+  {
+   "source": "articles/16441856-switching-a-task-s-owner.md",
+   "note": "articles/16441856-switching-a-task-s-owner.md",
+   "title": "Switching a Task's owner",
+   "url": "https://help.cluing.io/en/articles/16441856-switching-a-task-s-owner",
+   "bytes": 2879
+  },
+  {
+   "source": "articles/16442211-scheduling-a-task.md",
+   "note": "articles/16442211-scheduling-a-task.md",
+   "title": "Scheduling a Task",
+   "url": "https://help.cluing.io/en/articles/16442211-scheduling-a-task",
+   "bytes": 2431
+  },
+  {
+   "source": "articles/8027189-how-to-logout-from-cluing-extension.md",
+   "note": "articles/8027189-how-to-logout-from-cluing-extension.md",
+   "title": "How to logout from Cluing Extension?",
+   "url": "https://help.cluing.io/en/articles/8027189-how-to-logout-from-cluing-extension",
+   "bytes": 787
+  },
+  {
+   "source": "articles/9805412-mention-users-from-slack.md",
+   "note": "articles/9805412-mention-users-from-slack.md",
+   "title": "Mention users from Slack",
+   "url": "https://help.cluing.io/en/articles/9805412-mention-users-from-slack",
+   "bytes": 1579
+  },
+  {
+   "source": "collections/11549849-getting-started.md",
+   "note": "collections/11549849-getting-started.md",
+   "title": "Getting started",
+   "url": "https://help.cluing.io/en/collections/11549849-getting-started",
+   "bytes": 341
+  },
+  {
+   "source": "collections/11578904-use-cases.md",
+   "note": "collections/11578904-use-cases.md",
+   "title": "Use Cases",
+   "url": "https://help.cluing.io/en/collections/11578904-use-cases",
+   "bytes": 541
+  },
+  {
+   "source": "collections/11578905-marketing-and-communications.md",
+   "note": "collections/11578905-marketing-and-communications.md",
+   "title": "Marketing & Communications",
+   "url": "https://help.cluing.io/en/collections/11578905-marketing-and-communications",
+   "bytes": 1876
+  },
+  {
+   "source": "collections/13201303-students.md",
+   "note": "collections/13201303-students.md",
+   "title": "Students",
+   "url": "https://help.cluing.io/en/collections/13201303-students",
+   "bytes": 616
+  },
+  {
+   "source": "collections/13202434-consulting.md",
+   "note": "collections/13202434-consulting.md",
+   "title": "Consulting",
+   "url": "https://help.cluing.io/en/collections/13202434-consulting",
+   "bytes": 544
+  },
+  {
+   "source": "collections/13202526-legal-and-compliance.md",
+   "note": "collections/13202526-legal-and-compliance.md",
+   "title": "Legal & Compliance",
+   "url": "https://help.cluing.io/en/collections/13202526-legal-and-compliance",
+   "bytes": 604
+  },
+  {
+   "source": "collections/13877655-topics-buckets-clusters.md",
+   "note": "collections/13877655-topics-buckets-clusters.md",
+   "title": "Topics, Buckets, Clusters",
+   "url": "https://help.cluing.io/en/collections/13877655-topics-buckets-clusters",
+   "bytes": 466
+  },
+  {
+   "source": "collections/13877709-topics.md",
+   "note": "collections/13877709-topics.md",
+   "title": "Topics",
+   "url": "https://help.cluing.io/en/collections/13877709-topics",
+   "bytes": 2296
+  },
+  {
+   "source": "collections/13953587-clusters.md",
+   "note": "collections/13953587-clusters.md",
+   "title": "Clusters",
+   "url": "https://help.cluing.io/en/collections/13953587-clusters",
+   "bytes": 1206
+  },
+  {
+   "source": "collections/13970558-snippets-comments-tags.md",
+   "note": "collections/13970558-snippets-comments-tags.md",
+   "title": "Snippets, Comments, Tags",
+   "url": "https://help.cluing.io/en/collections/13970558-snippets-comments-tags",
+   "bytes": 485
+  },
+  {
+   "source": "collections/13970600-snippets.md",
+   "note": "collections/13970600-snippets.md",
+   "title": "Snippets",
+   "url": "https://help.cluing.io/en/collections/13970600-snippets",
+   "bytes": 2598
+  },
+  {
+   "source": "collections/13972839-integrations.md",
+   "note": "collections/13972839-integrations.md",
+   "title": "Integrations",
+   "url": "https://help.cluing.io/en/collections/13972839-integrations",
+   "bytes": 1563
+  },
+  {
+   "source": "collections/13973019-comments.md",
+   "note": "collections/13973019-comments.md",
+   "title": "Comments",
+   "url": "https://help.cluing.io/en/collections/13973019-comments",
+   "bytes": 1061
+  },
+  {
+   "source": "collections/13989549-tags.md",
+   "note": "collections/13989549-tags.md",
+   "title": "Tags",
+   "url": "https://help.cluing.io/en/collections/13989549-tags",
+   "bytes": 498
+  },
+  {
+   "source": "collections/13990939-document-management.md",
+   "note": "collections/13990939-document-management.md",
+   "title": "Document Management",
+   "url": "https://help.cluing.io/en/collections/13990939-document-management",
+   "bytes": 1507
+  },
+  {
+   "source": "collections/13993196-ai-assistants.md",
+   "note": "collections/13993196-ai-assistants.md",
+   "title": "AI Assistants",
+   "url": "https://help.cluing.io/en/collections/13993196-ai-assistants",
+   "bytes": 2169
+  },
+  {
+   "source": "collections/13994794-workspace-and-account-settings.md",
+   "note": "collections/13994794-workspace-and-account-settings.md",
+   "title": "Workspace and Account Settings",
+   "url": "https://help.cluing.io/en/collections/13994794-workspace-and-account-settings",
+   "bytes": 2060
+  },
+  {
+   "source": "collections/14010526-subscriptions-plans-and-payments.md",
+   "note": "collections/14010526-subscriptions-plans-and-payments.md",
+   "title": "Subscriptions, Plans and Payments",
+   "url": "https://help.cluing.io/en/collections/14010526-subscriptions-plans-and-payments",
+   "bytes": 741
+  },
+  {
+   "source": "collections/14011073-sharing-permissions-mention-search.md",
+   "note": "collections/14011073-sharing-permissions-mention-search.md",
+   "title": "Sharing, Permissions, Mention, Search",
+   "url": "https://help.cluing.io/en/collections/14011073-sharing-permissions-mention-search",
+   "bytes": 553
+  },
+  {
+   "source": "collections/14013898-sharing-permissions-and-export-options.md",
+   "note": "collections/14013898-sharing-permissions-and-export-options.md",
+   "title": "Sharing, Permissions & Export Options",
+   "url": "https://help.cluing.io/en/collections/14013898-sharing-permissions-and-export-options",
+   "bytes": 1594
+  },
+  {
+   "source": "collections/14013988-mention-and-search.md",
+   "note": "collections/14013988-mention-and-search.md",
+   "title": "Mention & Search",
+   "url": "https://help.cluing.io/en/collections/14013988-mention-and-search",
+   "bytes": 934
+  },
+  {
+   "source": "collections/14114930-customize-extension-preferences.md",
+   "note": "collections/14114930-customize-extension-preferences.md",
+   "title": "Customize Extension Preferences",
+   "url": "https://help.cluing.io/en/collections/14114930-customize-extension-preferences",
+   "bytes": 1316
+  },
+  {
+   "source": "collections/14115869-security-and-privacy.md",
+   "note": "collections/14115869-security-and-privacy.md",
+   "title": "Security and Privacy",
+   "url": "https://help.cluing.io/en/collections/14115869-security-and-privacy",
+   "bytes": 817
+  },
+  {
+   "source": "collections/14116097-faq.md",
+   "note": "collections/14116097-faq.md",
+   "title": "FAQ 🧐",
+   "url": "https://help.cluing.io/en/collections/14116097-faq",
+   "bytes": 2154
+  },
+  {
+   "source": "collections/14160950-quickstart-guide-to-cluing.md",
+   "note": "collections/14160950-quickstart-guide-to-cluing.md",
+   "title": "Quickstart Guide to Cluing",
+   "url": "https://help.cluing.io/en/collections/14160950-quickstart-guide-to-cluing",
+   "bytes": 482
+  },
+  {
+   "source": "collections/14322495-getting-started.md",
+   "note": "collections/14322495-getting-started.md",
+   "title": "Getting Started",
+   "url": "https://help.cluing.io/en/collections/14322495-getting-started",
+   "bytes": 704
+  },
+  {
+   "source": "collections/14602689-cluing-on-the-go.md",
+   "note": "collections/14602689-cluing-on-the-go.md",
+   "title": "Cluing On The Go",
+   "url": "https://help.cluing.io/en/collections/14602689-cluing-on-the-go",
+   "bytes": 1489
+  },
+  {
+   "source": "collections/19640459-buckets.md",
+   "note": "collections/19640459-buckets.md",
+   "title": "Buckets",
+   "url": "https://help.cluing.io/en/collections/19640459-buckets",
+   "bytes": 456
+  },
+  {
+   "source": "collections/19716916-agents-and-skills.md",
+   "note": "collections/19716916-agents-and-skills.md",
+   "title": "Agents and Skills",
+   "url": "https://help.cluing.io/en/collections/19716916-agents-and-skills",
+   "bytes": 1472
+  },
+  {
+   "source": "collections/3990275-guides.md",
+   "note": "collections/3990275-guides.md",
+   "title": "Guides",
+   "url": "https://help.cluing.io/en/collections/3990275-guides",
+   "bytes": 558
+  },
+  {
+   "source": "collections/3990309-faq.md",
+   "note": "collections/3990309-faq.md",
+   "title": "FAQ",
+   "url": "https://help.cluing.io/en/collections/3990309-faq",
+   "bytes": 224
+  },
+  {
+   "source": "collections/5456119-clusters-and-topics.md",
+   "note": "collections/5456119-clusters-and-topics.md",
+   "title": "Clusters and Topics",
+   "url": "https://help.cluing.io/en/collections/5456119-clusters-and-topics",
+   "bytes": 272
+  },
+  {
+   "source": "collections/5456182-dashboard.md",
+   "note": "collections/5456182-dashboard.md",
+   "title": "Dashboard",
+   "url": "https://help.cluing.io/en/collections/5456182-dashboard",
+   "bytes": 242
+  },
+  {
+   "source": "collections/5456225-snippets.md",
+   "note": "collections/5456225-snippets.md",
+   "title": "Snippets",
+   "url": "https://help.cluing.io/en/collections/5456225-snippets",
+   "bytes": 239
+  },
+  {
+   "source": "collections/5456339-extension.md",
+   "note": "collections/5456339-extension.md",
+   "title": "Extension",
+   "url": "https://help.cluing.io/en/collections/5456339-extension",
+   "bytes": 323
+  },
+  {
+   "source": "collections/6777527-copilot.md",
+   "note": "collections/6777527-copilot.md",
+   "title": "Copilot",
+   "url": "https://help.cluing.io/en/collections/6777527-copilot",
+   "bytes": 236
+  },
+  {
+   "source": "collections/8060162-integrations.md",
+   "note": "collections/8060162-integrations.md",
+   "title": "Integrations",
+   "url": "https://help.cluing.io/en/collections/8060162-integrations",
+   "bytes": 251
+  }
+ ]
+}
