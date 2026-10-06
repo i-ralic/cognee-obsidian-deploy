@@ -52,6 +52,8 @@ Four iterations ran before the container was stopped (21:50, 21:52, 21:54, 21:56
 
 **Re-pin after the last connector fix.** The connector PR gained one more commit (`d52a05a`, emptied known note = edit) after the loop run above, so `sync/Dockerfile` was re-pinned to it and the loop proof repeated from a rebuild: three iterations at 120 s (22:12, 22:14, 22:16 UTC), each `297 notes in vault, 0 emitted, 0 deleted`, `docker compose ps` `(healthy)` at T+150 s and T+280 s, `healthcheck.py` exit 0 (`proof/loop_d52a05a/`). Pin and proof match at the PR head. The image records the connector archive it was built from as the image label `io.cognee.connector.archive` (the OCI `source` label names this repo) and as `/app/sync/CONNECTOR_ARCHIVE` (`proof/loop_d52a05a/connector_commit.txt`, read back from the built image); the package version alone (0.1.0) cannot tell connector commits apart. A one-shot no-op sync on that rebuilt image is in `sync_oneshot_after_label.log`.
 
+**Re-pin to the connector PR head `b747a2d`.** After the connector PR gained a README-only commit, the pin moved to `b747a2d` and the loop proof was repeated once more on the rebuilt image (`proof/loop_b747a2d/`): two iterations at 120 s, each `297 notes in vault, 0 emitted, 0 deleted`, `(healthy)` at T+150 s and T+280 s, `healthcheck.py` exit 0; `connector_commit.txt` reads the archive label and `/app/sync/CONNECTOR_ARCHIVE` back from the image.
+
 ## D. Resources
 
 Measured with `scripts/measure.sh` (docker stats every 5 s; `proof/measure_sync*.csv`), lima VM 4 CPUs / 8 GB:

@@ -5,12 +5,12 @@ FROM cognee/cognee@sha256:b9c727a631222897f60de9d796190bbf0a33254afdb335a6638a24
 
 # Commit tarball, not git+https (the image has no git) and not a branch (branches move).
 # Point this at the merged connector (upstream tag) when it lands.
-ARG CONNECTOR_ARCHIVE=https://github.com/i-ralic/cognee-community/archive/d52a05a4e4c369f3e5dd4334d9a13cc7155f56b6.tar.gz
+ARG CONNECTOR_ARCHIVE=https://github.com/i-ralic/cognee-community/archive/b747a2dbc7926f32b99761703bee997b9f83b3cb.tar.gz
 # The package version (0.1.0) does not change between connector commits, so the image records
 # the archive it was built from: as a label and as a file the proof can read back.
 # org.opencontainers.image.source is the source of *this* image (this repo); the connector
 # archive goes under a custom key.
-LABEL org.opencontainers.image.source="https://github.com/cluing-ai/cognee-obsidian-deploy" \
+LABEL org.opencontainers.image.source="https://github.com/i-ralic/cognee-obsidian-deploy" \
       io.cognee.connector.archive="${CONNECTOR_ARCHIVE}"
 
 USER root

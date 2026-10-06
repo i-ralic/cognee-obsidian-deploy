@@ -1,0 +1,4 @@
+# read back from the built image (rebuilt after the source label moved to i-ralic; connector and code unchanged)
+io.cognee.connector.archive=https://github.com/i-ralic/cognee-community/archive/b747a2dbc7926f32b99761703bee997b9f83b3cb.tar.gz
+org.opencontainers.image.source=https://github.com/i-ralic/cognee-obsidian-deploy
+/app/sync/CONNECTOR_ARCHIVE=https://github.com/i-ralic/cognee-community/archive/b747a2dbc7926f32b99761703bee997b9f83b3cb.tar.gz
